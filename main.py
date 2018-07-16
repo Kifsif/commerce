@@ -51,15 +51,15 @@ def get_current_dir():
     return os.path.dirname(os.path.abspath(__file__)) + "/"
 
 global_phrases = []
+global_emails = []
 
-def get_phrase_list():
-    source_file = get_current_dir() + "initial_data/word_list.txt"
+def get_list(current_list):
+    source_file = get_current_dir() + "initial_data/" + current_list
 
     with open(source_file, "r") as f:
-        global global_phrases
-        global_phrases = f.read().splitlines()
+        phrases = f.read().splitlines()
 
-import pickle
+    return phrases
 
 def get_current_phrase_bunch():
     global global_phrases
@@ -72,12 +72,28 @@ def get_current_phrase_bunch():
         for phrase in current_phrase_bunch:
             f.write("%s\n" % phrase)
 
-    pass
+    return current_phrase_bunch
+
+def get_current_email():
+    global global_emails
+    current_email = global_emails.pop(0)
+
+    email_log = get_current_dir() + "log/email_log.txt"
+
+    with open(email_log, "a") as f:
+        f.write("%s\n" % current_email)
+
+    return current_email
+
 
 get_current_dir()
-get_phrase_list()
+global_phrases = get_list("word_list.txt")
+global_emails = get_list("email_list.txt")
 get_current_phrase_bunch()
 get_current_phrase_bunch()
+email1 = get_current_email()
+email2 = get_current_email()
+pass
 
 #
 # def get_phrase_bunch():
