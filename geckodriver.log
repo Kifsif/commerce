@@ -1,0 +1,1053 @@
+1531675459359	geckodriver	INFO	geckodriver 0.21.0
+1531675459371	geckodriver	INFO	Listening on 127.0.0.1:36973
+1531675459605	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sP1359VUEs8z"
+1531675496197	geckodriver	INFO	geckodriver 0.21.0
+1531675496214	geckodriver	INFO	Listening on 127.0.0.1:44527
+1531675497228	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jTuDPvl5UFsc"
+1531675506406	Marionette	INFO	Listening on port 38169
+1531675506929	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531675977379	geckodriver	INFO	geckodriver 0.21.0
+1531675977414	geckodriver	INFO	Listening on 127.0.0.1:35589
+1531675978391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xYqqHrVAPRlh"
+1531676001457	Marionette	INFO	Listening on port 37743
+1531676002346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Child 4510, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4510, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 4510, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 4510, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1531676771173	geckodriver	INFO	geckodriver 0.21.0
+1531676771348	geckodriver	INFO	Listening on 127.0.0.1:38437
+1531676772445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rSCyEyLdC9Tx"
+1531676791796	Marionette	INFO	Listening on port 44797
+1531676791887	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4977, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531676800812	geckodriver	INFO	geckodriver 0.21.0
+1531676800825	geckodriver	INFO	Listening on 127.0.0.1:60835
+1531676801841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ktwvpwcX1chi"
+1531676808045	Marionette	INFO	Listening on port 36435
+1531676808099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531676876065	geckodriver	INFO	geckodriver 0.21.0
+1531676876109	geckodriver	INFO	Listening on 127.0.0.1:39539
+1531676877105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nxfnDM1HYAgB"
+1531676893319	Marionette	INFO	Listening on port 33593
+1531676893675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1531677282534	geckodriver	INFO	geckodriver 0.21.0
+1531677282596	geckodriver	INFO	Listening on 127.0.0.1:45541
+1531677282780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fE9WDGz9dcXv"
+1531677319724	geckodriver	INFO	geckodriver 0.21.0
+1531677319738	geckodriver	INFO	Listening on 127.0.0.1:37315
+1531677320752	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tn1rEU4EMXFE"
+1531677333012	Marionette	INFO	Listening on port 38737
+1531677333076	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531677387803	geckodriver	INFO	geckodriver 0.21.0
+1531677387815	geckodriver	INFO	Listening on 127.0.0.1:49867
+1531677388859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MAZocAoboQYx"
+1531677397677	Marionette	INFO	Listening on port 35851
+1531677397742	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6047, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531677477836	geckodriver	INFO	geckodriver 0.21.0
+1531677477848	geckodriver	INFO	Listening on 127.0.0.1:34435
+1531677477942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4EyTJFS4vKYy"
+1531677485968	Marionette	INFO	Listening on port 39309
+1531677485998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://tools.pixelplus.ru
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://tools.pixelplus.ru
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+
+(/usr/lib/firefox/firefox:6213): dconf-WARNING **: 21:00:54.148: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://tools.pixelplus.ru
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://tools.pixelplus.ru
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1531677745801	geckodriver	INFO	geckodriver 0.21.0
+1531677745816	geckodriver	INFO	Listening on 127.0.0.1:43849
+1531677745902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QgGx859XaarW"
+1531677757713	Marionette	INFO	Listening on port 37861
+1531677757849	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: CustomError: Jsloader error (code #0): Error while loading script //www.google.com/js/bg/Y39TCM91WYHH8FShYCFKLOVvr0vNrQXkMWBOfmkGQEQ.js
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:6537): dconf-WARNING **: 21:03:02.976: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1531677965870	geckodriver	INFO	geckodriver 0.21.0
+1531677965883	geckodriver	INFO	Listening on 127.0.0.1:58113
+1531677965969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yZjfssZzs4nI"
+1531677976038	Marionette	INFO	Listening on port 36957
+1531677976197	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531678081422	geckodriver	INFO	geckodriver 0.21.0
+1531678081444	geckodriver	INFO	Listening on 127.0.0.1:32811
+1531678081490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Dlfg2EUnAHZO"
+1531678089428	Marionette	INFO	Listening on port 35579
+1531678090356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1266: TypeError: currentPanel is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531678244851	geckodriver	INFO	geckodriver 0.21.0
+1531678244917	geckodriver	INFO	Listening on 127.0.0.1:48933
+1531678246021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Yz5hhSIzsRsX"
+1531678265274	Marionette	INFO	Listening on port 45291
+1531678265352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:7376): dconf-WARNING **: 21:11:33.848: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531678691265	geckodriver	INFO	geckodriver 0.21.0
+1531678691384	geckodriver	INFO	Listening on 127.0.0.1:42807
+1531678692438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4mg7AqxFR8gv"
+1531678710339	Marionette	INFO	Listening on port 44879
+1531678710415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531678870630	geckodriver	INFO	geckodriver 0.21.0
+1531678870643	geckodriver	INFO	Listening on 127.0.0.1:44523
+1531678870763	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XjwhR0ASYuci"
+1531678938494	Marionette	INFO	Listening on port 40233
+1531678962979	geckodriver	INFO	geckodriver 0.21.0
+1531678963036	geckodriver	INFO	Listening on 127.0.0.1:49857
+1531678964010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gj8jG3dqFfqb"
+1531679013341	Marionette	INFO	Listening on port 41295
+1531679024866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531679208856	geckodriver	INFO	geckodriver 0.21.0
+1531679208906	geckodriver	INFO	Listening on 127.0.0.1:51085
+1531679209957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w2kvoNL6TFCW"
+1531679223677	Marionette	INFO	Listening on port 38027
+1531679223770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 8540, Gecko_IOThread] WARNING: pipe error (137): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:8647): dconf-WARNING **: 21:27:23.031: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531679289528	geckodriver	INFO	geckodriver 0.21.0
+1531679289554	geckodriver	INFO	Listening on 127.0.0.1:57781
+1531679289567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MyGLdySLnt5I"
+1531679296213	Marionette	INFO	Listening on port 36543
+1531679296321	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531679583518	geckodriver	INFO	geckodriver 0.21.0
+1531679583530	geckodriver	INFO	Listening on 127.0.0.1:52583
+1531679584547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KZNiCkReGmqX"
+1531679591202	Marionette	INFO	Listening on port 44573
+1531679591332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: CustomError: Jsloader error (code #0): Error while loading script //www.google.com/js/bg/iKsF3KVDofzcuFXroYTcoMMaI0TSQHOkKUQdNsqdvUg.js
+[Parent 9261, Gecko_IOThread] WARNING: pipe error (109): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531679669131	geckodriver	INFO	geckodriver 0.21.0
+1531679669144	geckodriver	INFO	Listening on 127.0.0.1:47613
+1531679670158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YE1yashl0OTk"
+1531679676224	Marionette	INFO	Listening on port 37633
+1531679676303	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531679758547	geckodriver	INFO	geckodriver 0.21.0
+1531679758570	geckodriver	INFO	Listening on 127.0.0.1:60939
+1531679759580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bQBaNjM9WJ40"
+1531679766205	Marionette	INFO	Listening on port 42467
+1531679766313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 9713, Gecko_IOThread] WARNING: pipe error (129): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:9790): dconf-WARNING **: 21:36:25.855: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531680004008	geckodriver	INFO	geckodriver 0.21.0
+1531680004023	geckodriver	INFO	Listening on 127.0.0.1:57829
+1531680005036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WMGWiFH9KdCl"
+1531680011463	Marionette	INFO	Listening on port 45067
+1531680011622	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: CustomError: Jsloader error (code #0): Error while loading script //www.google.com/js/bg/Y39TCM91WYHH8FShYCFKLOVvr0vNrQXkMWBOfmkGQEQ.js
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:10070): dconf-WARNING **: 21:40:34.698: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10070, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531680107212	geckodriver	INFO	geckodriver 0.21.0
+1531680107226	geckodriver	INFO	Listening on 127.0.0.1:57073
+1531680107239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mGs0TIjzeXaw"
+1531680113619	Marionette	INFO	Listening on port 39363
+1531680113674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 10191, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode180"
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode183"
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode185"
+console.error: "Got a removal of an actor we didn't know about: server1.conn0.child1/domnode189"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10309, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531680391081	geckodriver	INFO	geckodriver 0.21.0
+1531680391096	geckodriver	INFO	Listening on 127.0.0.1:46601
+1531680392111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HoJD4VZdnpjD"
+1531680398578	Marionette	INFO	Listening on port 33771
+1531680398684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531680452137	geckodriver	INFO	geckodriver 0.21.0
+1531680452152	geckodriver	INFO	Listening on 127.0.0.1:36765
+1531680452166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SL65cSkK6TGm"
+1531680459047	Marionette	INFO	Listening on port 42961
+1531680459126	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 10630, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531680611250	geckodriver	INFO	geckodriver 0.21.0
+1531680611280	geckodriver	INFO	Listening on 127.0.0.1:46153
+1531680612293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kFYBtrY3lEmg"
+1531680619043	Marionette	INFO	Listening on port 41363
+1531680619209	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531680674214	geckodriver	INFO	geckodriver 0.21.0
+1531680674230	geckodriver	INFO	Listening on 127.0.0.1:34605
+1531680675246	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bFwCLElLVIjR"
+1531680682091	Marionette	INFO	Listening on port 36031
+1531680682308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:11265): dconf-WARNING **: 21:51:44.980: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531680813435	geckodriver	INFO	geckodriver 0.21.0
+1531680813454	geckodriver	INFO	Listening on 127.0.0.1:60981
+1531680814466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uSO7UmshR1Ph"
+1531680823637	Marionette	INFO	Listening on port 36013
+1531680825023	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:11497): dconf-WARNING **: 21:54:12.393: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531680916085	geckodriver	INFO	geckodriver 0.21.0
+1531680916142	geckodriver	INFO	Listening on 127.0.0.1:51903
+1531680917166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7ZBgpXggOSKC"
+1531680981687	Marionette	INFO	Listening on port 38453
+1531681029230	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/TelemetryFeed.jsm :: uninit :: line 493"  data: no] Stack trace: uninit()@resource://activity-stream/lib/TelemetryFeed.jsm:493
+onAction()@resource://activity-stream/lib/TelemetryFeed.jsm:451
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:51
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:170
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:318
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:79
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:187
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:2757
+observe()@resource://gre/modules/addons/XPIProvider.jsm:1672
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 589: TypeError: this.tablesData[table] is undefined
+[Parent 10983, Gecko_IOThread] WARNING: pipe error (102): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 11418, Gecko_IOThread] WARNING: pipe error (110): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 9506, Gecko_IOThread] WARNING: pipe error (55): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7\nLine: 1887, column: 0"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1531681129197	geckodriver	INFO	geckodriver 0.21.0
+1531681129270	geckodriver	INFO	Listening on 127.0.0.1:58043
+1531681130210	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.P7v6sGpfJwdk"
+1531681145698	Marionette	INFO	Listening on port 41665
+1531681145828	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: CustomError: Jsloader error (code #0): Error while loading script //www.google.com/js/bg/Y39TCM91WYHH8FShYCFKLOVvr0vNrQXkMWBOfmkGQEQ.js
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531681248494	geckodriver	INFO	geckodriver 0.21.0
+1531681248514	geckodriver	INFO	Listening on 127.0.0.1:58811
+1531681249521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qB2bY2atG4XN"
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+1531681263138	Marionette	INFO	Listening on port 35613
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Parent 11981, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531681380541	geckodriver	INFO	geckodriver 0.21.0
+1531681380563	geckodriver	INFO	Listening on 127.0.0.1:48211
+1531681381620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OeeQ2jsPAHX6"
+1531681393378	Marionette	INFO	Listening on port 45695
+1531681393447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 12668, Gecko_IOThread] WARNING: pipe error (138): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 12789, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531681523966	geckodriver	INFO	geckodriver 0.21.0
+1531681523982	geckodriver	INFO	Listening on 127.0.0.1:52227
+1531681524993	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dRVQJrOm424Y"
+1531681531134	Marionette	INFO	Listening on port 43757
+1531681531236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 12928, Gecko_IOThread] WARNING: pipe error (136): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 13005, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531681667282	geckodriver	INFO	geckodriver 0.21.0
+1531681667298	geckodriver	INFO	Listening on 127.0.0.1:44679
+1531681668307	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bwoErHBWMVES"
+1531681674220	Marionette	INFO	Listening on port 39713
+1531681674256	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: CustomError: Jsloader error (code #0): Error while loading script //www.google.com/js/bg/Y39TCM91WYHH8FShYCFKLOVvr0vNrQXkMWBOfmkGQEQ.js
+[Parent 13156, Gecko_IOThread] WARNING: pipe error (138): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 13273, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531682010162	geckodriver	INFO	geckodriver 0.21.0
+1531682010174	geckodriver	INFO	Listening on 127.0.0.1:34539
+1531682011188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Qr8uT5yRiBdZ"
+1531682017426	Marionette	INFO	Listening on port 46231
+1531682017536	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531682067270	geckodriver	INFO	geckodriver 0.21.0
+1531682067291	geckodriver	INFO	Listening on 127.0.0.1:59387
+1531682068297	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GfaJzRGAf8dv"
+1531682074782	Marionette	INFO	Listening on port 46153
+1531682074856	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531682188684	geckodriver	INFO	geckodriver 0.21.0
+1531682188698	geckodriver	INFO	Listening on 127.0.0.1:34027
+1531682189710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LJkgboigufJE"
+1531682196538	Marionette	INFO	Listening on port 40025
+1531682196681	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:14053): dconf-WARNING **: 22:16:57.572: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 14089, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 14053, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531682304290	geckodriver	INFO	geckodriver 0.21.0
+1531682304316	geckodriver	INFO	Listening on 127.0.0.1:33427
+1531682305321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NUmRQeD3dFjY"
+1531682312192	Marionette	INFO	Listening on port 39639
+1531682312312	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+console.error: "TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11
+onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1531682742744	geckodriver	INFO	geckodriver 0.21.0
+1531682742767	geckodriver	INFO	Listening on 127.0.0.1:33331
+1531682743779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JpzpEsYPXOFU"
+1531682751640	Marionette	INFO	Listening on port 44841
+1531682751834	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531682798277	geckodriver	INFO	geckodriver 0.21.0
+1531682798294	geckodriver	INFO	Listening on 127.0.0.1:51107
+1531682799305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UjVK2WGSSsKU"
+1531682807919	Marionette	INFO	Listening on port 35671
+1531682809695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1531682972285	geckodriver	INFO	geckodriver 0.21.0
+1531682972450	geckodriver	INFO	Listening on 127.0.0.1:51217
+1531682973419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.stGGex6cXEGE"
+1531682989083	Marionette	INFO	Listening on port 37771
+1531682989272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 15103, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531683040113	geckodriver	INFO	geckodriver 0.21.0
+1531683040127	geckodriver	INFO	Listening on 127.0.0.1:57863
+1531683041142	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yKQdIr2I066D"
+1531683048968	Marionette	INFO	Listening on port 34391
+1531683049030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 15103, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 15103, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 15339, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531683138732	geckodriver	INFO	geckodriver 0.21.0
+1531683138744	geckodriver	INFO	Listening on 127.0.0.1:41817
+1531683139792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PFrl181JswYa"
+1531683146162	Marionette	INFO	Listening on port 39237
+1531683146244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 15560, Gecko_IOThread] WARNING: pipe error (138): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531683242682	geckodriver	INFO	geckodriver 0.21.0
+1531683242694	geckodriver	INFO	Listening on 127.0.0.1:54455
+1531683243709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.v6mo5TZT2V9d"
+1531683249917	Marionette	INFO	Listening on port 43817
+1531683250027	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+1531683328922	geckodriver	INFO	geckodriver 0.21.0
+1531683328936	geckodriver	INFO	Listening on 127.0.0.1:42061
+1531683329952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uBWHwEdB9jt7"
+1531683336332	Marionette	INFO	Listening on port 41843
+1531683336388	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 15959, Gecko_IOThread] WARNING: pipe error (113): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 15959, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 15762, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 15560, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531683495124	geckodriver	INFO	geckodriver 0.21.0
+1531683495140	geckodriver	INFO	Listening on 127.0.0.1:35601
+1531683496147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XdkR0YaFsMJC"
+1531683501989	Marionette	INFO	Listening on port 44155
+1531683502133	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 16190, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+javaldx: Could not find a Java Runtime Environment!
+Please ensure that a JVM and the package libreoffice-java-common
+is installed.
+If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
+Warning: failed to read path from javaldx
+1531683653257	geckodriver	INFO	geckodriver 0.21.0
+1531683653288	geckodriver	INFO	Listening on 127.0.0.1:52825
+1531683654279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Dm1639u0XSRu"
+1531683667400	Marionette	INFO	Listening on port 46571
+1531683667457	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 16645, Gecko_IOThread] WARNING: pipe error (100): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:16723): dconf-WARNING **: 22:41:38.207: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:16757): dconf-WARNING **: 22:45:50.742: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://yastatic.net/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=3B4541A6AB3AAD2A83BD279444DFD5A1?org_id=fsymclue&session_id=42e4a8f1-ffa5-469b-8d97-9b35278be52c&nonce=85ec7f5fc7816745, line 80: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=3B4541A6AB3AAD2A83BD279444DFD5A1?org_id=fsymclue&session_id=42e4a8f1-ffa5-469b-8d97-9b35278be52c&nonce=85ec7f5fc7816745, line 80: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=3B4541A6AB3AAD2A83BD279444DFD5A1?org_id=fsymclue&session_id=42e4a8f1-ffa5-469b-8d97-9b35278be52c&nonce=85ec7f5fc7816745, line 80: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+* Exhausted GL driver options.
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=3B4541A6AB3AAD2A83BD279444DFD5A1?org_id=fsymclue&session_id=42e4a8f1-ffa5-469b-8d97-9b35278be52c&nonce=85ec7f5fc7816745, line 80: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=3B4541A6AB3AAD2A83BD279444DFD5A1?org_id=fsymclue&session_id=42e4a8f1-ffa5-469b-8d97-9b35278be52c&nonce=85ec7f5fc7816745, line 80: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=3B4541A6AB3AAD2A83BD279444DFD5A1?org_id=fsymclue&session_id=42e4a8f1-ffa5-469b-8d97-9b35278be52c&nonce=85ec7f5fc7816745, line 80: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+* Exhausted GL driver options.
+
+(/usr/lib/firefox/firefox:16895): dconf-WARNING **: 22:46:54.346: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+
+(/usr/lib/firefox/firefox:17048): dconf-WARNING **: 22:48:09.878: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://yastatic.net/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=6F016ABF326AC66040C0C22ADB861088?org_id=fsymclue&session_id=1ab79413-939f-4799-974f-f4cb5f72e16f&nonce=8148ac31d4fc2a19, line 78: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=6F016ABF326AC66040C0C22ADB861088?org_id=fsymclue&session_id=1ab79413-939f-4799-974f-f4cb5f72e16f&nonce=8148ac31d4fc2a19, line 78: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=6F016ABF326AC66040C0C22ADB861088?org_id=fsymclue&session_id=1ab79413-939f-4799-974f-f4cb5f72e16f&nonce=8148ac31d4fc2a19, line 78: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+* Exhausted GL driver options.
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=6F016ABF326AC66040C0C22ADB861088?org_id=fsymclue&session_id=1ab79413-939f-4799-974f-f4cb5f72e16f&nonce=8148ac31d4fc2a19, line 78: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=6F016ABF326AC66040C0C22ADB861088?org_id=fsymclue&session_id=1ab79413-939f-4799-974f-f4cb5f72e16f&nonce=8148ac31d4fc2a19, line 78: Error: WebGL warning: Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+JavaScript warning: https://s4.money.yandex.net/fp/check.js;CIS3SID=6F016ABF326AC66040C0C22ADB861088?org_id=fsymclue&session_id=1ab79413-939f-4799-974f-f4cb5f72e16f&nonce=8148ac31d4fc2a19, line 78: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Refused to create native OpenGL context because of blacklist entry: FEATURE_FAILURE_OPENGL_1
+* Exhausted GL driver options.
+JavaScript error: https://pixelplus.ru/, line 2499: ReferenceError: VK is not defined
+JavaScript error: https://pixelplus.ru/, line 2512: ReferenceError: VK is not defined
+JavaScript error: https://pixelplus.ru/bitrix/cache/js/10/pixelplus.ru_2015.mobile/template_aa19df4109095b6d04fea0538e92b6f8/template_aa19df4109095b6d04fea0538e92b6f8.js?1527094371398504, line 4313: ReferenceError: yaCounter11819104 is not defined
+
+(/usr/lib/firefox/firefox:17285): dconf-WARNING **: 22:53:55.317: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 16645, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531684658458	geckodriver	INFO	geckodriver 0.21.0
+1531684658485	geckodriver	INFO	Listening on 127.0.0.1:49735
+1531684659503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VxHz107ozewa"
+1531684666058	Marionette	INFO	Listening on port 39165
+1531684666234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 17645, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531684757523	geckodriver	INFO	geckodriver 0.21.0
+1531684757537	geckodriver	INFO	Listening on 127.0.0.1:58629
+1531684758546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LKqWx37FnIeR"
+1531684765427	Marionette	INFO	Listening on port 35393
+1531684765569	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531684848816	geckodriver	INFO	geckodriver 0.21.0
+1531684848833	geckodriver	INFO	Listening on 127.0.0.1:58267
+1531684849845	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ozJjDlWfRwBc"
+1531684859295	Marionette	INFO	Listening on port 33475
+1531684859381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 18041, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Parent 17839, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 17645, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531685019770	geckodriver	INFO	geckodriver 0.21.0
+1531685019782	geckodriver	INFO	Listening on 127.0.0.1:48753
+1531685020797	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QyxSpy1Csgxc"
+1531685027013	Marionette	INFO	Listening on port 36015
+1531685027067	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 18446, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531686296802	geckodriver	INFO	geckodriver 0.21.0
+1531686296866	geckodriver	INFO	Listening on 127.0.0.1:45407
+1531686297858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nlj7PFelQgma"
+1531686314338	Marionette	INFO	Listening on port 46229
+1531686314485	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 2006, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531686492177	geckodriver	INFO	geckodriver 0.21.0
+1531686492190	geckodriver	INFO	Listening on 127.0.0.1:59151
+1531686492204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.V8vI2jWUcjUu"
+1531686499242	Marionette	INFO	Listening on port 35533
+1531686499352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 2615, Gecko_IOThread] WARNING: pipe error (131): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531686595919	geckodriver	INFO	geckodriver 0.21.0
+1531686595931	geckodriver	INFO	Listening on 127.0.0.1:34809
+1531686596945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0E9vMrtFekvF"
+1531686603103	Marionette	INFO	Listening on port 44133
+1531686603186	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 2859, Gecko_IOThread] WARNING: pipe error (141): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 2859, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531686681183	geckodriver	INFO	geckodriver 0.21.0
+1531686681195	geckodriver	INFO	Listening on 127.0.0.1:42219
+1531686682210	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CyR6O7yNIPWo"
+1531686688337	Marionette	INFO	Listening on port 44179
+1531686688461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 3075, Gecko_IOThread] WARNING: pipe error (124): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 3075, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531686754309	geckodriver	INFO	geckodriver 0.21.0
+1531686754334	geckodriver	INFO	Listening on 127.0.0.1:43337
+1531686755347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JtVKkT3eGFya"
+1531686761167	Marionette	INFO	Listening on port 42661
+1531686761217	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 3299, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531686828120	geckodriver	INFO	geckodriver 0.21.0
+1531686828136	geckodriver	INFO	Listening on 127.0.0.1:53675
+1531686829142	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.p2E1shZz3AIQ"
+1531686835475	Marionette	INFO	Listening on port 37693
+1531686835581	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 3490, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://tools.pixelplus.ru
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.error: "Could not get the list of font families" (new Error("Connection closed, pending request to server1.conn0.child1/pagestyle30, type getUsedFontFaces failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1314:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1468:14\ngetUsedFontFamilies/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:150:29\npermitUnload@chrome://global/content/bindings/remote-browser.xml:362:13\nCanCloseWindow@chrome://browser/content/browser.js:7038:36\ncanClose@chrome://browser/content/browser.js:5561:12\nGeckoDriver.prototype.quit@chrome://marionette/content/driver.js:3282:3\ndespatch@chrome://marionette/content/server.js:294:20\nexecute@chrome://marionette/content/server.js:268:11\nonPacket/<@chrome://marionette/content/server.js:243:15\nonPacket@chrome://marionette/content/server.js:242:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:500:9\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1257))
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5\nLine: 1887, column: 0"
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7\nLine: 1887, column: 0"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531686875489	geckodriver	INFO	geckodriver 0.21.0
+1531686875501	geckodriver	INFO	Listening on 127.0.0.1:36571
+1531686876515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hLRSWZ47pzvh"
+1531686882383	Marionette	INFO	Listening on port 33355
+1531686882483	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 3717, Gecko_IOThread] WARNING: pipe error (139): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://tools.pixelplus.ru
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3829, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531687300409	geckodriver	INFO	geckodriver 0.21.0
+1531687300422	geckodriver	INFO	Listening on 127.0.0.1:58427
+1531687301436	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OxxJGRDWuv92"
+1531687307342	Marionette	INFO	Listening on port 44325
+1531687307403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4170, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531687641074	geckodriver	INFO	geckodriver 0.20.1
+1531687641085	geckodriver	INFO	Listening on 127.0.0.1:40457
+1531687641172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EgOUpOUbAF41"
+1531687648885	Marionette	INFO	Listening on port 44527
+1531687648954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 4404, Gecko_IOThread] WARNING: pipe error (107): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 4404, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 4404, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531687724286	geckodriver	INFO	geckodriver 0.20.1
+1531687724297	geckodriver	INFO	Listening on 127.0.0.1:40077
+1531687725305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ErniubnmatgA"
+1531687731682	Marionette	INFO	Listening on port 43167
+1531687731777	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Child 4689, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 4618, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531687796617	geckodriver	INFO	geckodriver 0.20.1
+1531687796629	geckodriver	INFO	Listening on 127.0.0.1:54155
+1531687797645	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JfecY9nBkjZd"
+1531687804521	Marionette	INFO	Listening on port 38739
+1531687804613	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531687898148	geckodriver	INFO	geckodriver 0.20.1
+1531687898159	geckodriver	INFO	Listening on 127.0.0.1:52187
+1531687899178	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nYNS5qPn7tWn"
+1531687905237	Marionette	INFO	Listening on port 40839
+1531687905348	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531688045479	geckodriver	INFO	geckodriver 0.20.1
+1531688045493	geckodriver	INFO	Listening on 127.0.0.1:40467
+1531688046510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uOt8e1ctoE1n"
+1531688054331	Marionette	INFO	Listening on port 46863
+1531688054505	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 5259, Gecko_IOThread] WARNING: pipe error (136): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+Gdk-Message: 23:55:35.551: firefox: Fatal IO error 0 (Success) on X server :1.
+
+Gdk-Message: 23:55:35.553: firefox: Fatal IO error 0 (Success) on X server :1.
+
+Gdk-Message: 20:55:35.555: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+1531688563382	geckodriver	INFO	geckodriver 0.20.1
+1531688563432	geckodriver	INFO	Listening on 127.0.0.1:55293
+1531688564438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kAUZpaYNAqgh"
+1531688579925	Marionette	INFO	Listening on port 46565
+1531688580060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: CustomError: Jsloader error (code #0): Error while loading script //www.google.com/js/bg/Y39TCM91WYHH8FShYCFKLOVvr0vNrQXkMWBOfmkGQEQ.js
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531688679717	geckodriver	INFO	geckodriver 0.20.1
+1531688679729	geckodriver	INFO	Listening on 127.0.0.1:34131
+1531688679852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nKx7WRueGzIc"
+1531688687373	Marionette	INFO	Listening on port 37629
+1531688687431	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 2849, Gecko_IOThread] WARNING: pipe error (135): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531689125520	geckodriver	INFO	geckodriver 0.20.1
+1531689125580	geckodriver	INFO	Listening on 127.0.0.1:43163
+1531689126590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HiMu52ey0x2d"
+1531689139900	Marionette	INFO	Listening on port 34369
+1531689139995	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531689419141	geckodriver	INFO	geckodriver 0.20.1
+1531689419162	geckodriver	INFO	Listening on 127.0.0.1:54373
+1531689419265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qhOhGjZlCreN"
+1531689431576	Marionette	INFO	Listening on port 45355
+1531689431650	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+1531689673132	geckodriver	INFO	geckodriver 0.20.1
+1531689673194	geckodriver	INFO	Listening on 127.0.0.1:33979
+1531689673255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pjwKKOjplj5h"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1531689682480	Marionette	INFO	Listening on port 36835
+1531689682593	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript error: https://static-media-prod-cdn.sumo.mozilla.net/static/build/common-min.4d86858ec129.js, line 10: Error: Error retrieving geoip data
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-36116321-2&l=dataLayer, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-36116321-2&l=dataLayer, line 69: unreachable code after return statement
+1531690522428	geckodriver	INFO	geckodriver 0.20.1
+1531690522492	geckodriver	INFO	Listening on 127.0.0.1:35165
+1531690522645	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GnKpK971brDl"
+1531690534719	Marionette	INFO	Listening on port 46823
+1531690534821	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109842865-1, line 69: unreachable code after return statement
+[Parent 4589, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
