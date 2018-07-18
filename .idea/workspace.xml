@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0737ac41-560d-4263-926d-b4f3139c050d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/general/drv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_data/email_list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_data/proxy_list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_data/word_list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/email_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drv.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +19,32 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="177" column="3" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
+            <state relative-caret-position="227">
+              <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#34#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/general/drv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/general/general.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -56,6 +75,13 @@
       <find>37.140.192.221</find>
       <find>77.238.234.145</find>
       <find>194.242.26.44</find>
+      <find>deepcopy</find>
+      <find>copied_proxy_list</find>
+      <find>init_proxy_list</find>
+      <find>get_d</find>
+      <find>get_l</find>
+      <find>get_cu</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,11 +91,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/log/phrase_log.txt" />
-        <option value="$PROJECT_DIR$/drv.py" />
         <option value="$PROJECT_DIR$/initial_data/proxy_list.txt" />
         <option value="$PROJECT_DIR$/initial_data/word_list.txt" />
         <option value="$PROJECT_DIR$/initial_data/email_list.txt" />
         <option value="$PROJECT_DIR$/log/email_log.txt" />
+        <option value="$PROJECT_DIR$/drv.py" />
+        <option value="$PROJECT_DIR$/genera.py" />
+        <option value="$PROJECT_DIR$/general.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/general/drv.py" />
+        <option value="$PROJECT_DIR$/general/general.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -86,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,7 +129,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,6 +136,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/general" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -183,13 +217,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>173</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -200,7 +227,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="99" />
+      <option name="time" value="102" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -212,6 +239,31 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>from . import dr</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from . import drv</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>import drv</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from .drv import get_driver</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sys.path</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>email in excluded_emails</expression-string>
         <language-id>Python</language-id>
@@ -237,35 +289,42 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>driver.find_element_by_link_text('Войти')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>final_time-init_time</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>global_emails</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>global_phrases.pop[100]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#34#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/drv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
           <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#34#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -275,7 +334,7 @@
         <state relative-caret-position="825">
           <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#34#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -287,7 +346,7 @@
         <state relative-caret-position="690">
           <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#34#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -299,7 +358,7 @@
         <state relative-caret-position="2355">
           <caret line="157" column="30" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="30" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#34#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -309,7 +368,7 @@
         <state relative-caret-position="1170">
           <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#34#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -442,15 +501,39 @@
     <entry file="file://$PROJECT_DIR$/initial_data/proxy_list.txt" />
     <entry file="file://$PROJECT_DIR$/initial_data/email_list.txt" />
     <entry file="file://$PROJECT_DIR$/log/email_log.txt" />
-    <entry file="file://$PROJECT_DIR$/drv.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/drv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="177" column="3" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
+        <state relative-caret-position="227">
+          <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#34#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

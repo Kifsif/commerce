@@ -1,55 +1,59 @@
-from selenium import webdriver
+# from selenium import webdriver
+
 import os
-from selenium.webdriver import Chrome
+# from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
-from copy import deepcopy
+# from copy import deepcopy
+import sys
+from general.drv import get_driver
+from general.general import get_current_dir, PARSING_PATH_PARTICLE, INIT_PATH_PARTICLE, get_list
 
 USE_PROXY = True
-WAIT_PERIOD = 360 # seconds
+# WAIT_PERIOD = 360 # seconds
 
-PARSING_PATH_PARTICLE = "../CommerceParsing/"
-INIT_PATH_PARTICLE = PARSING_PATH_PARTICLE + "Init/"
+# PARSING_PATH_PARTICLE = "../CommerceParsing/"
+# INIT_PATH_PARTICLE = PARSING_PATH_PARTICLE + "Init/"
 
 ATTEMPTS_TO_CHANGE_PROXY = 10
 
-chrome_options = webdriver.ChromeOptions()
-copied_proxy_list = []
+# chrome_options = webdriver.ChromeOptions()
+# copied_proxy_list = []
 
 
-def get_current_dir():
-    return os.path.dirname(os.path.abspath(__file__)) + "/"
+# def get_current_dir():
+#     return os.path.dirname(os.path.abspath(__file__)) + "/"
 
-def get_list(current_list):
-    source_file = get_current_dir() + INIT_PATH_PARTICLE + current_list
+# def get_list(current_list):
+#     source_file = get_current_dir() + INIT_PATH_PARTICLE + current_list
+#
+#     with open(source_file, "r") as f:
+#         elements = f.read().splitlines()
+#
+#     return elements
 
-    with open(source_file, "r") as f:
-        elements = f.read().splitlines()
+# def get_proxy():
+#     global copied_proxy_list
+#     try:
+#         a_proxy = copied_proxy_list.pop()
+#     except IndexError:
+#         copied_proxy_list = deepcopy(init_proxy_list)
+#         a_proxy = copied_proxy_list.pop()
+#
+#     return a_proxy
 
-    return elements
+# def get_driver(use_proxy=False):
+#     if use_proxy:
+#         a_proxy = get_proxy()
+#         chrome_options.add_argument('--proxy-server=%s' % a_proxy)
+#         driver = Chrome(chrome_options=chrome_options)
+#     else:
+#         driver = Chrome()
+#     driver.implicitly_wait(WAIT_PERIOD)
+#     driver.set_page_load_timeout(WAIT_PERIOD)
+#
+#     return driver
 
-def get_proxy():
-    global copied_proxy_list
-    try:
-        a_proxy = copied_proxy_list.pop()
-    except IndexError:
-        copied_proxy_list = deepcopy(init_proxy_list)
-        a_proxy = copied_proxy_list.pop()
-
-    return a_proxy
-
-def get_driver(use_proxy=False):
-    if use_proxy:
-        a_proxy = get_proxy()
-        chrome_options.add_argument('--proxy-server=%s' % a_proxy)
-        driver = Chrome(chrome_options=chrome_options)
-    else:
-        driver = Chrome()
-    driver.implicitly_wait(WAIT_PERIOD)
-    driver.set_page_load_timeout(WAIT_PERIOD)
-
-    return driver
-
-init_proxy_list = get_list("proxy_list.txt")
+# init_proxy_list = get_list("proxy_list.txt")
 
 global_phrases = []
 global_emails = []
@@ -171,6 +175,8 @@ def parse_phrase_bunch(phrases, counter=0):
     try:
         assert "Пиксель Тулс — бесплатные SEO-инструменты, программы и сервисы для SEO-анализа сайта и продвижения" in driver.title, "Заголовок Пикселя не тот."
     except AssertionError:
+        # Что-то пошло не так: парсить не может. Может быть, прокси-сервер не рабочий. Поменяем прокси-сервер и снова
+        # попробуем. Так несколько раз.
         driver.quit()
         if counter == ATTEMPTS_TO_CHANGE_PROXY:
             exit() # Выполнили много попыток поменять прокси, но парсинг все равно не получается.
