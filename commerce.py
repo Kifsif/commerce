@@ -1,13 +1,22 @@
 import os
 from selenium.webdriver.common.by import By
-from general.drv import get_driver
-from general.general import get_current_dir, PARSING_PATH_PARTICLE, INIT_PATH_PARTICLE, get_list
-
-USE_PROXY = True
-ATTEMPTS_TO_CHANGE_PROXY = 10
+from general.drv import get_driver, ATTEMPTS_TO_CHANGE_PROXY, USE_PROXY
+from general.general import get_current_dir, get_list
 
 global_phrases = []
 global_emails = []
+
+PARSING_PATH_PARTICLE = "../CommerceParsing/"
+INIT_PATH_PARTICLE = PARSING_PATH_PARTICLE + "Init/"
+
+word_list_full_path = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "word_list.txt")
+email_list_full_path = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "email_list.txt")
+
+global_phrases =  get_list(word_list_full_path)
+
+
+global_emails = get_list(email_list_full_path)
+
 
 def get_current_phrase_bunch():
     global global_phrases
@@ -69,9 +78,6 @@ def get_current_email():
 
     return current_email
 
-# get_current_dir()
-global_phrases = get_list("word_list.txt")
-global_emails = get_list("email_list.txt")
 
 
 def handle_login(driver):
@@ -119,7 +125,7 @@ def clear_logs():
 
 def parse_phrase_bunch(phrases, counter=0):
     clear_logs()
-    driver = get_driver()
+    driver = get_driver(USE_PROXY)
     driver.get('https://tools.pixelplus.ru/')
 
     try:
