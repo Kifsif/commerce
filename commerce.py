@@ -1,7 +1,7 @@
 import os
 from selenium.webdriver.common.by import By
 from general.drv import get_driver, ATTEMPTS_TO_CHANGE_PROXY, USE_PROXY
-from general.general import get_current_dir, get_list
+from general.general import get_current_dir, get_list, clear_logs
 
 global_phrases = []
 global_emails = []
@@ -112,19 +112,9 @@ def handle_phrases(phrases, driver):
     log_out(driver)
     driver.quit()
 
-
-def clear_logs():
-    logs_dir = os.path.join(get_current_dir(),"log")
-    import shutil
-    try:
-        shutil.rmtree(logs_dir)
-    except FileNotFoundError:
-        pass # Do nothing
-
-    os.makedirs(logs_dir)
-
 def parse_phrase_bunch(phrases, counter=0):
-    clear_logs()
+    logs_dir = os.path.join(get_current_dir(), "log")
+    clear_logs(logs_dir)
     driver = get_driver(USE_PROXY)
     driver.get('https://tools.pixelplus.ru/')
 

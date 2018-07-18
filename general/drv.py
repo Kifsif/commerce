@@ -5,7 +5,7 @@ from .general import get_list, get_current_dir
 import os
 
 WAIT_PERIOD = 360 # seconds
-USE_PROXY = True
+USE_PROXY = False
 ATTEMPTS_TO_CHANGE_PROXY = 10
 
 chrome_options = webdriver.ChromeOptions()

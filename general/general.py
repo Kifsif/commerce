@@ -1,8 +1,20 @@
 import os
+import shutil
+
+
+def clear_logs(logs_dir):
+    try:
+        shutil.rmtree(logs_dir)
+    except FileNotFoundError:
+        pass # Do nothing
+
+    os.makedirs(logs_dir)
+
 
 def get_current_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(current_dir, "../")
+
 
 def get_list(full_path_to_file):
 

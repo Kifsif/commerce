@@ -7,18 +7,18 @@ import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-from general.general import get_current_dir, get_list
+from general.general import get_current_dir, get_list, clear_logs
 from general.drv import get_driver, USE_PROXY, ATTEMPTS_TO_CHANGE_PROXY
 from time import sleep
 
 
 SELECTED_REGION = 213
-
-
+PROJECT_DIR = get_current_dir()
+PAGES_TO_PARSE = 3
+LOGS_DIR = os.path.join(get_current_dir(), "../YandexParsing/log")
 
 def get_phrases():
-    project_dir = get_current_dir()
-    yandex_parsing_init_dir = os.path.join(project_dir, "../YandexParsing/phrases.txt")
+    yandex_parsing_init_dir = os.path.join(PROJECT_DIR, "../YandexParsing/init/phrases.txt")
     yandex_parsing_init_file = os.path.join(yandex_parsing_init_dir)
     phrases = get_list(yandex_parsing_init_file)
     return phrases
@@ -31,6 +31,59 @@ def get_phrase():
     phrase = phrases[0]
     phrases = phrases[1:]
     return phrase
+
+def change_city(driver):
+    city_input = driver.find_element_by_id("city__front-input")
+    city_input.clear()
+    city_input.send_keys("Астрахань")
+    city_input.send_keys(Keys.PAGE_DOWN)
+    sleep(2)
+    city_input.send_keys(Keys.ENTER)
+
+def send_phrase_to_search(driver, phrase):
+    text_input_field = driver.find_element_by_xpath("//input[@name='text']")
+    text_input_field.clear()
+    text_input_field.send_keys(phrase)
+    text_input_field.send_keys((Keys.ENTER))
+
+def remove_ads(parsed_links):
+    parsed_links = [element for element in parsed_links if ("yabs" not in element) and ("market.yandex.ru" not in element)]
+    return parsed_links
+
+YANDEX_PARSING_LOG_PARTICLE = "../YandexParsing/log/"
+
+def write_list_to_file(link_list, full_path_to_file):
+    yandex_log = os.path.join(LOGS_DIR, full_path_to_file)
+    with open(yandex_log, 'a') as f:
+        for link in link_list:
+            f.write("{}\n".format(link))
+
+def collect_links(driver):
+    parsed_webdriver_links = driver.find_elements_by_xpath("//a[contains(@class, 'organic__url')]")
+
+    parsed_links = [element.get_attribute("href") for element in parsed_webdriver_links]
+
+    parsed_links = remove_ads(parsed_links)
+
+    return parsed_links
+
+def go_to_next_page(driver):
+    sleep(3)
+    next_page_link = driver.find_element_by_xpath('//a[text()="дальше"]')
+    next_page_link.click()
+
+def write_phrase_to_log(phrase, file_name):
+    phrase_log_file = os.path.join(LOGS_DIR, file_name)
+    with open(phrase_log_file, "w") as f:
+        f.write("{}\n".format(phrase))
+
+def collect_related_items(driver):
+    sleep(2)
+    related_items = driver.find_elements_by_class_name("related__item")
+
+    related_item_list = [element.text for element in related_items]
+
+    return related_item_list
 
 
 def handle_phrase(phrase, counter=0):
@@ -48,25 +101,34 @@ def handle_phrase(phrase, counter=0):
         counter += 1
         handle_phrase(phrase, counter)
     counter = 0  # Даже если были неудачные попытки, в следующий раз начнем отсчет заново.
-
-    city_input = driver.find_element_by_id("city__front-input")
-    city_input.clear()
-    city_input.send_keys("Астрахань")
-    city_input.send_keys(Keys.PAGE_DOWN)
-    sleep(1)
-    city_input.send_keys(Keys.ENTER)
-
-    text_input_field = driver.find_element_by_id("text")
-    text_input_field.send_keys(phrase)
-    text_input_field.send_keys((Keys.ENTER))
-
-
-    pass
+    change_city(driver)
 
 
 
+    for i in range(PAGES_TO_PARSE):
+        if i == 0:
+            send_phrase_to_search(driver, phrase)
+
+        sleep(3)
+        parsed_links = collect_links(driver)
+
+        link_log_file = "{}.txt".format(SELECTED_REGION)
+        write_list_to_file(parsed_links, link_log_file)
+
+
+        related_item_list = collect_related_items(driver)
+
+        related_items_log_file = "{}_related_items.txt".format(SELECTED_REGION)
+        write_list_to_file(related_item_list, related_items_log_file)
+
+        go_to_next_page(driver)
+
+    log_file = "{}_last_phrase.txt".format(SELECTED_REGION)
+    write_phrase_to_log(phrase, log_file)
 
 def parse_yandex(counter=0):
+    clear_logs(LOGS_DIR)
+
     while phrases:
         phrase = get_phrase()
         handle_phrase(phrase)
