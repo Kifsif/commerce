@@ -7,9 +7,11 @@ import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-from general.general import get_current_dir, get_list, clear_logs
-from general.drv import get_driver, USE_PROXY, ATTEMPTS_TO_CHANGE_PROXY
+from general.general import get_current_dir, get_list, clear_logs, write_list_to_file
+from general.drv import get_driver, USE_PROXY, ATTEMPTS_TO_CHANGE_PROXY, send_proxy_to_black_list
 from time import sleep
+
+
 
 
 SELECTED_REGION = 213
@@ -52,11 +54,7 @@ def remove_ads(parsed_links):
 
 YANDEX_PARSING_LOG_PARTICLE = "../YandexParsing/log/"
 
-def write_list_to_file(link_list, full_path_to_file):
-    yandex_log = os.path.join(LOGS_DIR, full_path_to_file)
-    with open(yandex_log, 'a') as f:
-        for link in link_list:
-            f.write("{}\n".format(link))
+
 
 def collect_links(driver):
     parsed_webdriver_links = driver.find_elements_by_xpath("//a[contains(@class, 'organic__url')]")
@@ -72,10 +70,6 @@ def go_to_next_page(driver):
     next_page_link = driver.find_element_by_xpath('//a[text()="дальше"]')
     next_page_link.click()
 
-def write_phrase_to_log(phrase, file_name):
-    phrase_log_file = os.path.join(LOGS_DIR, file_name)
-    with open(phrase_log_file, "w") as f:
-        f.write("{}\n".format(phrase))
 
 def collect_related_items(driver):
     sleep(2)
@@ -86,45 +80,43 @@ def collect_related_items(driver):
     return related_item_list
 
 
-def handle_phrase(phrase, counter=0):
-    driver = get_driver()
-    driver.get("https://yandex.ru/tune/geo/?retpath=https%3A%2F%2Fwww.yandex.ru%2F%3Fdomredir%3D1%26text%3D%25D0%25BA%25D1%2583%25D0%25BF%25D0%25B8%25D1%2582%25D1%258C%2520%25D0%25BA%25D0%25BE%25D0%25BC%25D0%25BF%25D1%258C%25D1%258E%25D1%2582%25D0%25B5%25D1%2580%26lr%3D213%26domredir%3D1&nosync=1")
+def handle_phrase(phrase):
 
-    try:
-        assert "Яндекс" in driver.title, "Заголовок Яндекса не тот."
-    except AssertionError:
-        # Что-то пошло не так: парсить не может. Может быть, прокси-сервер не рабочий. Поменяем прокси-сервер и снова
-        # попробуем. Так несколько раз.
-        driver.quit()
-        if counter == ATTEMPTS_TO_CHANGE_PROXY:
-            exit()  # Выполнили много попыток поменять прокси, но парсинг все равно не получается.
-        counter += 1
-        handle_phrase(phrase, counter)
-    counter = 0  # Даже если были неудачные попытки, в следующий раз начнем отсчет заново.
-    change_city(driver)
+    while True:
+        try: # Транзакция.
+            driver = get_driver(USE_PROXY)
+            driver.get("https://yandex.ru/tune/geo/?retpath=https%3A%2F%2Fwww.yandex.ru%2F%3Fdomredir%3D1%26text%3D%25D0%25BA%25D1%2583%25D0%25BF%25D0%25B8%25D1%2582%25D1%258C%2520%25D0%25BA%25D0%25BE%25D0%25BC%25D0%25BF%25D1%258C%25D1%258E%25D1%2582%25D0%25B5%25D1%2580%26lr%3D213%26domredir%3D1&nosync=1")
+            change_city(driver)
 
+            for i in range(PAGES_TO_PARSE):
+                if i == 0:
+                    send_phrase_to_search(driver, phrase)
 
+                sleep(3)
+                parsed_links = collect_links(driver)
 
-    for i in range(PAGES_TO_PARSE):
-        if i == 0:
-            send_phrase_to_search(driver, phrase)
-
-        sleep(3)
-        parsed_links = collect_links(driver)
-
-        link_log_file = "{}.txt".format(SELECTED_REGION)
-        write_list_to_file(parsed_links, link_log_file)
+                link_log_file = "{}.txt".format(SELECTED_REGION)
+                write_list_to_file(LOGS_DIR, parsed_links, link_log_file)
 
 
-        related_item_list = collect_related_items(driver)
+                related_item_list = collect_related_items(driver)
 
-        related_items_log_file = "{}_related_items.txt".format(SELECTED_REGION)
-        write_list_to_file(related_item_list, related_items_log_file)
+                related_items_log_file = "{}_related_items.txt".format(SELECTED_REGION)
+                write_list_to_file(LOGS_DIR, related_item_list, related_items_log_file)
 
-        go_to_next_page(driver)
+                go_to_next_page(driver)
 
-    log_file = "{}_last_phrase.txt".format(SELECTED_REGION)
-    write_phrase_to_log(phrase, log_file)
+            log_file = "{}_last_phrase.txt".format(SELECTED_REGION)
+            write_phrase_to_log(phrase, log_file)
+            break
+        except:
+            handle_phrase(phrase)
+
+
+def parse_sites():
+    driver = get_driver(USE_PROXY)
+
+
 
 def parse_yandex(counter=0):
     clear_logs(LOGS_DIR)
@@ -133,7 +125,10 @@ def parse_yandex(counter=0):
         phrase = get_phrase()
         handle_phrase(phrase)
 
+    parse_sites()
+
 parse_yandex()
+
 
 # PARSING_DEPTH = 1
 # SLEEP_TIME_FROM = 15 # in seconds

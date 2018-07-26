@@ -2,6 +2,8 @@ from general.general import get_list, get_current_dir
 from general.drv import get_driver
 from general.drv import USE_PROXY
 import os
+from selenium.common.exceptions import NoSuchElementException
+from general.drv import send_proxy_to_black_list
 
 full_path_to_proxy_list = os.path.join(get_current_dir(), "../CommerceParsing/Init/proxy_list.txt")
 
@@ -16,7 +18,13 @@ def test_proxies():
         element_text = element.text
         ip = element_text.split(",")
 
-        region = driver.find_element_by_xpath('//th[text()="Country"]/following-sibling::td').text
+
+        try:
+            region = driver.find_element_by_xpath('//th[text()="Country"]/following-sibling::td').text
+        except NoSuchElementException:
+            send_proxy_to_black_list(a_proxy)
+
+        driver.quit()
         print("{}, {}".format(ip, region))
 
 test_proxies()
