@@ -6,7 +6,7 @@ from selenium.webdriver import DesiredCapabilities
 import os
 
 WAIT_PERIOD = 360 # seconds
-USE_PROXY = False
+USE_PROXY = True
 ATTEMPTS_TO_CHANGE_PROXY = 10
 
 
@@ -49,7 +49,7 @@ chrome_options = webdriver.ChromeOptions()
 
 def get_driver(use_proxy=False):
     if use_proxy:
-        a_proxy = '94.242.58.108:1448'
+        a_proxy = get_proxy()
         desired_capabilities = DesiredCapabilities.CHROME.copy()
         desired_capabilities["proxy"] = {'proxyType': 'MANUAL',
          'httpProxy': a_proxy, 'autodetect': False}

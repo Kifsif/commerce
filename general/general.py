@@ -7,7 +7,7 @@ def get_current_date():
     return current_date
 
 
-def clear_logs(logs_dir):
+def clear_files(logs_dir):
     try:
         shutil.rmtree(logs_dir)
     except FileNotFoundError:

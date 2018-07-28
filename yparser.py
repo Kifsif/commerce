@@ -7,7 +7,7 @@ import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-from general.general import get_current_dir, get_list, clear_logs, write_list_to_file
+from general.general import get_current_dir, get_list, clear_files, write_list_to_file
 from general.drv import get_driver, USE_PROXY, ATTEMPTS_TO_CHANGE_PROXY, send_proxy_to_black_list
 from time import sleep
 
@@ -119,7 +119,7 @@ def parse_sites():
 
 
 def parse_yandex(counter=0):
-    clear_logs(LOGS_DIR)
+    clear_files(LOGS_DIR)
 
     while phrases:
         phrase = get_phrase()
