@@ -9,7 +9,7 @@ global_emails = []
 PARSING_PATH_PARTICLE = "../CommerceParsing/"
 INIT_PATH_PARTICLE = PARSING_PATH_PARTICLE + "Init/"
 
-PHRASE_BUNCH_SIZE = 100
+PHRASE_BUNCH_SIZE = 300
 
 word_list_full_path = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "word_list.txt")
 email_list_full_path = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "email_list.txt")
@@ -74,7 +74,8 @@ def is_excluded(email):
 
     return email in excluded_emails
 
-def get_current_email():
+def get_current_email(infinite_loop=True):
+    global global_emails
     last_email = get_last_used_email()
 
     first_free_email = 0
@@ -86,8 +87,13 @@ def get_current_email():
         try:
             current_email = global_emails[first_free_email]
         except IndexError:
-            print("Емейлов не осталось.")
-            exit()
+            if infinite_loop:
+                global_emails = get_list(email_list_full_path)
+                current_email = get_current_email()
+                return current_email
+            else:
+                print("Емейлов не осталось.")
+                exit()
     else:
         current_email = global_emails[0]
 
@@ -142,7 +148,7 @@ def check_limits(driver):
 
     limits_spent_int = int(limits_spent_str)
 
-    if limits_spent_int != 0:
+    if limits_spent_int >= 1200:
         raise Exception("Нет лимитов!")
 
 
@@ -150,10 +156,6 @@ def handle_phrases(phrases, driver):
     check_limits(driver)
 
     requests_field = driver.find_element_by_id("requests")
-
-
-
-
 
     str_phrases = "\n".join(phrases)
     requests_field.send_keys(str_phrases)
