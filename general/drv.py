@@ -5,7 +5,7 @@ from .general import get_list, get_current_dir
 from selenium.webdriver import DesiredCapabilities
 import os
 
-WAIT_PERIOD = 360 # seconds
+WAIT_PERIOD = 760 # seconds
 USE_PROXY = True
 ATTEMPTS_TO_CHANGE_PROXY = 10
 

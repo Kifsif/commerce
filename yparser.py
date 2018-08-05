@@ -7,7 +7,7 @@ import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-from general.general import get_current_dir, get_list, clear_files, write_list_to_file
+from general.general import get_current_dir, get_list, clear_files, write_list_to_file, write_phrase_to_log
 from general.drv import get_driver, USE_PROXY, ATTEMPTS_TO_CHANGE_PROXY, send_proxy_to_black_list
 from time import sleep
 
@@ -48,9 +48,15 @@ def send_phrase_to_search(driver, phrase):
     text_input_field.send_keys(phrase)
     text_input_field.send_keys((Keys.ENTER))
 
-def remove_ads(parsed_links):
-    parsed_links = [element for element in parsed_links if ("yabs" not in element) and ("market.yandex.ru" not in element)]
+def remove_garbage(parsed_links):
+    parsed_links = [element for element in parsed_links if ("yabs" not in element)
+                    and ("market.yandex.ru" not in element)
+                    and ("yandex.ru/video/" not in element)
+                    and ("yandex.ru/images/" not in element)
+                    and ("www.youtube") not in element]
     return parsed_links
+
+
 
 YANDEX_PARSING_LOG_PARTICLE = "../YandexParsing/log/"
 
@@ -61,7 +67,7 @@ def collect_links(driver):
 
     parsed_links = [element.get_attribute("href") for element in parsed_webdriver_links]
 
-    parsed_links = remove_ads(parsed_links)
+    parsed_links = remove_garbage(parsed_links)
 
     return parsed_links
 
@@ -79,6 +85,13 @@ def collect_related_items(driver):
 
     return related_item_list
 
+def prepare_csv(phrase, a_list):
+    # Мы спарсили данные и создали из них списк. Но каждый элемент этого списка должен
+    # быть связан с фразой, которую вводили в поиск. Поэтому делаем csv.
+
+    result_list = ['"{}";"{}"'.format(phrase, element) for element in a_list]
+
+    return result_list
 
 def handle_phrase(phrase):
 
@@ -93,13 +106,15 @@ def handle_phrase(phrase):
                     send_phrase_to_search(driver, phrase)
 
                 sleep(3)
-                parsed_links = collect_links(driver)
+                parsed_links_tmp = collect_links(driver)
 
                 link_log_file = "{}.txt".format(SELECTED_REGION)
+                parsed_links = prepare_csv(phrase, parsed_links_tmp)
                 write_list_to_file(LOGS_DIR, parsed_links, link_log_file)
 
 
-                related_item_list = collect_related_items(driver)
+                tmp_related_item_list = collect_related_items(driver)
+                related_item_list = prepare_csv(phrase, tmp_related_item_list)
 
                 related_items_log_file = "{}_related_items.txt".format(SELECTED_REGION)
                 write_list_to_file(LOGS_DIR, related_item_list, related_items_log_file)
@@ -109,7 +124,8 @@ def handle_phrase(phrase):
             log_file = "{}_last_phrase.txt".format(SELECTED_REGION)
             write_phrase_to_log(phrase, log_file)
             break
-        except:
+        except Exception as e:
+            print(e)
             handle_phrase(phrase)
 
 

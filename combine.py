@@ -9,8 +9,8 @@ source_files_mask = source_files_dir + "*.csv"
 
 
 # 'utf-8', 'windows-1251'
-READ_ENCODING = 'utf-8'
-WRITE_ENCODING = 'utf-8'
+READ_ENCODING = 'windows-1251'
+WRITE_ENCODING = 'windows-1251'
 
 result_file_dir = os.path.join(current_dir, "../CombinedFiles")
 
@@ -58,4 +58,4 @@ def combine(first_column_only = False):
                 file.write(lines)
 
 
-combine(first_column_only=True)
+combine()
