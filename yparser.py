@@ -93,6 +93,20 @@ def prepare_csv(phrase, a_list):
 
     return result_list
 
+def get_highlighted_words(driver):
+    bold_elements = driver.find_elements_by_tag_name("b")
+    bold_elemen_list = [element.text for element in bold_elements if
+                        element.text
+                        and (element.find_element_by_xpath("..").tag_name != "a")
+                        and element.text.strip() != "..."]
+    # bold_elemen_list_in_text = driver.find_elements_by_xpath("//span[@class='extended_text__full']/b")
+    # bold_elemen_list_in_titles = driver.find_elements_by_xpath("//span[@class='extended_text__full']/b")
+    bold_elemen_list_in_titles = driver.find_elements_by_class_name("needsclick")
+    # for element in bold_elements:
+    #     pass
+
+    return bold_elemen_list
+
 def handle_phrase(phrase):
 
     while True:
@@ -112,6 +126,11 @@ def handle_phrase(phrase):
                 parsed_links = prepare_csv(phrase, parsed_links_tmp)
                 write_list_to_file(LOGS_DIR, parsed_links, link_log_file)
 
+                highlited_words_log_file = "{}_highlighted.txt".format(SELECTED_REGION)
+                highlited_words_tmp = get_highlighted_words(driver)
+                highlited_words = prepare_csv(phrase, highlited_words_tmp)
+                write_list_to_file(LOGS_DIR, highlited_words, highlited_words_log_file)
+
 
                 tmp_related_item_list = collect_related_items(driver)
                 related_item_list = prepare_csv(phrase, tmp_related_item_list)
@@ -126,6 +145,7 @@ def handle_phrase(phrase):
             break
         except Exception as e:
             print(e)
+            driver.quit()
             handle_phrase(phrase)
 
 
