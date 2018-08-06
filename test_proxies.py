@@ -11,7 +11,7 @@ init_proxy_list = get_list(full_path_to_proxy_list)
 
 def test_proxies():
     for i in range( len(init_proxy_list)):
-        driver = get_driver(USE_PROXY)
+        driver = get_driver()
         driver.get("http://ip-api.com/")
 
         element = driver.find_element_by_id("qr")

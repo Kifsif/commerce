@@ -17,21 +17,8 @@ full_path_to_proxy_list = os.path.join(project_dir, "../CommerceParsing/Init/pro
 
 init_proxy_list = get_list(full_path_to_proxy_list)
 
-# def change_proxy():
-#     try:
-#         assert "Пиксель Тулс — бесплатные SEO-инструменты, программы и сервисы для SEO-анализа сайта и продвижения" in driver.title, "Заголовок Пикселя не тот."
-#     except AssertionError:
-#         # Что-то пошло не так: парсить не может. Может быть, прокси-сервер не рабочий. Поменяем прокси-сервер и снова
-#         # попробуем. Так несколько раз.
-#         driver.quit()
-#         if counter == ATTEMPTS_TO_CHANGE_PROXY:
-#             exit() # Выполнили много попыток поменять прокси, но парсинг все равно не получается.
-#         counter += 1
-#         parse_phrase_bunch(phrases, counter)
 
 def send_proxy_to_black_list(a_proxy):
-
-
     pass
 
 def get_proxy():
@@ -47,8 +34,8 @@ def get_proxy():
 
 chrome_options = webdriver.ChromeOptions()
 
-def get_driver(use_proxy=False):
-    if use_proxy:
+def get_driver():
+    if USE_PROXY:
         a_proxy = get_proxy()
         desired_capabilities = DesiredCapabilities.CHROME.copy()
         desired_capabilities["proxy"] = {'proxyType': 'MANUAL',
@@ -63,18 +50,3 @@ def get_driver(use_proxy=False):
     driver.set_page_load_timeout(WAIT_PERIOD)
 
     return driver
-
-
-# def get_driver(use_prosy=False):
-#     if use_prosy:
-#         a_proxy = get_proxy()
-#
-#         desired_capabilities = webdriver.DesiredCapabilities.CHROME.copy()
-#
-#         desired_capabilities['proxy'] = {
-#             "httpProxy": a_proxy,
-#             "autodetect": False,
-#             "proxyType":"MANUAL",
-#         }
-#
-#         dri
