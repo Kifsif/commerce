@@ -6,7 +6,7 @@ from time import sleep
 
 SELECTED_REGION = 1 # https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/
 PROJECT_DIR = get_current_dir()
-PAGES_TO_PARSE = 2
+PAGES_TO_PARSE = 10
 LOGS_DIR = os.path.join(get_current_dir(), "../YandexParsing/log")
 
 

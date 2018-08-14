@@ -9,7 +9,7 @@ source_files_mask = source_files_dir + "*.csv"
 
 
 # 'utf-8', 'windows-1251'
-READ_ENCODING = 'windows-1251'
+READ_ENCODING = 'utf-8'
 WRITE_ENCODING = 'windows-1251'
 
 result_file_dir = os.path.join(current_dir, "../CombinedFiles")
@@ -26,7 +26,6 @@ def combine(first_column_only = False):
     if first_column_only:
         counter = 1
         for a_file in file_list:
-            # with codecs.open(a_file, 'r', encoding = READ_ENCODING) as file:
             with codecs.open(a_file, 'r', encoding=READ_ENCODING) as r_file:
                 while True:
                     try:
@@ -51,11 +50,17 @@ def combine(first_column_only = False):
     else:
 
         for a_file in file_list:
-            with codecs.open(a_file, 'r', encoding = WRITE_ENCODING) as file:
-              lines = file.read()
+            with codecs.open(a_file, 'r', encoding = READ_ENCODING) as file:
+                try:
+                    lines = file.read()
+                except UnicodeDecodeError:
+                    continue
 
             with codecs.open(result_file, 'a', encoding = WRITE_ENCODING) as file:
-                file.write(lines)
+                try:
+                    file.write(lines)
+                except UnicodeEncodeError:
+                    pass # Поставить точку останова и смотреть в каждом конкретном случае.
 
 
-combine()
+combine(first_column_only = False)
