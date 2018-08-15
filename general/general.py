@@ -28,14 +28,13 @@ def get_list(full_path_to_file):
 
     return elements
 
-def write_list_to_file(logs_dir, link_list, full_path_to_file):
-    yandex_log = os.path.join(logs_dir, full_path_to_file)
-    with open(yandex_log, 'a') as f:
+def write_list_to_file(link_list, enc, full_path_to_file):
+    with open(full_path_to_file, "a", encoding=enc) as f:
         for link in link_list:
             f.write("{}\n".format(link))
 
-def write_phrase_to_log(phrase, full_path_to_file):
-    with open(full_path_to_file, "w") as f:
+def write_phrase_to_log(phrase, write_mode, enc, full_path_to_file):
+    with open(full_path_to_file, write_mode, encoding=enc) as f:
         f.write("{}\n".format(phrase))
 
 def add_phrase_in_log(phrase, full_path_to_file):

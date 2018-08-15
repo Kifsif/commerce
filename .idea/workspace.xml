@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0737ac41-560d-4263-926d-b4f3139c050d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/general.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seo_combinator.py" beforeDir="false" afterPath="$PROJECT_DIR$/seo_combinator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +17,22 @@
       <file leaf-file-name="seo_combinator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seo_combinator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/general/general.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,7 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>write_phrase_to_log</find>
       <find>write_list_to_file</find>
       <find>collect_l</find>
       <find>write_</find>
@@ -49,7 +60,6 @@
       <find>no</find>
       <find>get_log_path</find>
       <find>email</find>
-      <find>write</find>
       <find>phrase_b</find>
       <find>logs</find>
       <find>start</find>
@@ -67,6 +77,8 @@
       <find>sleep</find>
       <find>SELECTED_REGION</find>
       <find>get</find>
+      <find>write</find>
+      <find>write_phrase_to_log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,7 +101,6 @@
         <option value="$PROJECT_DIR$/b_file.py" />
         <option value="$PROJECT_DIR$/b_parse.py" />
         <option value="$PROJECT_DIR$/create_pixel_tools_accounts.py" />
-        <option value="$PROJECT_DIR$/general/general.py" />
         <option value="$PROJECT_DIR$/commerce.py" />
         <option value="$PROJECT_DIR$/general/drv.py" />
         <option value="$PROJECT_DIR$/test_proxies.py" />
@@ -98,6 +109,7 @@
         <option value="$PROJECT_DIR$/convert_encoding.py" />
         <option value="$PROJECT_DIR$/postgres_like_generator.py" />
         <option value="$PROJECT_DIR$/combinator.py" />
+        <option value="$PROJECT_DIR$/general/general.py" />
         <option value="$PROJECT_DIR$/seo_combinator.py" />
       </list>
     </option>
@@ -372,12 +384,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17704426" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34535518" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48087433" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -385,7 +398,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -399,17 +411,17 @@
           <line>38</line>
           <option name="timeStamp" value="301" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/seo_combinator.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="306" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="309" />
+      <option name="time" value="327" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="tmp_list[i]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -470,52 +482,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>csv_reader</expression-string>
+        <expression-string>set(cartesian_production)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>csv_reader[0]</expression-string>
+        <expression-string>list(cartesian_production)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>element.find_element_by_xpath(&quot;..&quot;)</expression-string>
+        <expression-string>set(list(cartesian_production))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>element</expression-string>
+        <expression-string>cartesian_production</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>element.find_element.by_xpath(&quot;..&quot;)</expression-string>
+        <expression-string>len(cartesian_production)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>element.find_by_xpath(&quot;..&quot;)</expression-string>
+        <expression-string>list(product(*result_phrases_list))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.find_elements_by_tag_name(&quot;b&quot;)</expression-string>
+        <expression-string>product(*result_phrases_list)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.find_elements_by_class_name(&quot;extended-text__full&quot;)</expression-string>
+        <expression-string>*result_phrases_list</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.find_element_by_xpath(&quot;//span[contains(@class, 'extended-text__full')]&quot;)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.find_element_by_xpath(&quot;//b[contains(@class, 'extended-text__full')]&quot;)</expression-string>
+        <expression-string>list(product(result_phrases_list[0], result_phrases_list[1], result_phrases_list[2]))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -667,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bukvarix.py" />
     <entry file="file://$PROJECT_DIR$/dsd.txt" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py">
@@ -713,13 +713,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/213_last_phrase.txt" />
     <entry file="file://$PROJECT_DIR$/1_last_phrase.txt" />
-    <entry file="file://$PROJECT_DIR$/general/general.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/general/drv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -776,10 +769,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seo_combinator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
