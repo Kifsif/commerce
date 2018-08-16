@@ -18,7 +18,7 @@ SIZE_OF_CHUNK = 10
 ARSENKIN = 'https://arsenkin.ru/tools/filter/index.php'
 RESULT_FILE = "" # Инициализируется в функции write_table_open_tag.
 PARSE_RUSSIA = False
-PARSE_MOSCOW = False
+PARSE_MOSCOW = True
 
 # Обязательно строкой, а не цифрой!
 MOSCOW_REGION = '1' # С областью.
@@ -26,9 +26,15 @@ RUSSIA_REGION = '225'
 
 
 def separate_url_and_region_and_phrases(url_phrases_list):
-    url = url_phrases_list[0]
-    region = url_phrases_list[1]
+    url = url_phrases_list[0].strip()
+
+    assert ord(url[0]) != 65279, "The file has Byte order mark. Go to the text" \
+                                 " editor, open file, change encoding to UTF-8. " \
+                                 "That is without BOM!"
+
+    region = url_phrases_list[1].strip()
     phrases = url_phrases_list[2:]
+
     return url, region, phrases
 
 def get_chunks_generator(phrases):
@@ -60,6 +66,9 @@ def request_and_write_phrase(phrases_str, site, region):
     proxies = {'http': 'http://{}'.format(get_proxy())}
     print(proxies)
 
+    site_1 = 'www.ritm-it.ru'
+    region_1 = '225'
+
     try:
         r = requests.post(ARSENKIN, proxies=proxies, data={'a_mode': 'getThis',
                                                       'ajax': 'Y',
@@ -68,7 +77,7 @@ def request_and_write_phrase(phrases_str, site, region):
                                                       'city': region})
     except ProxyError:
         print("Bad proxy: {}".format(proxies))
-        request_and_write_phrase(phrases_str, site)
+        request_and_write_phrase(phrases_str, site, region)
 
     txt_str = r.text
     success = write_results(txt_str)
@@ -86,28 +95,24 @@ def handle_chunks(chunks, site, region):
         sleep_time = get_sleep_time()
         sleep(sleep_time)
 
-def get_domain(site):
-    import re
-    pattern = '\/\/(.*)\.'
-    match_obj = re.search(pattern, site, flags=re.IGNORECASE)
-    domain_name = match_obj.group(1)
-    return domain_name
 
 def write_table_open_tag(site, region):
     global RESULT_FILE
-    domain = get_domain(site)
+
     RESULT_FILE = os.path.join(get_current_dir(), PARSING_PATH_PARTICLE,
-                               'Result/{domain}_{region}_result.html'.format(domain=domain, region=region))
+                               'Result/{domain}_{region}_result.html'.format(domain=site, region=region))
     write_phrase_to_log("<html>\n<table>\n",
                         write_mode='w',
                         enc=ENCODING,
                         full_path_to_file=RESULT_FILE)
+
 
 def write_table_closing_tag():
     write_phrase_to_log("</table>\n</html>",
                         write_mode='a',
                         enc=ENCODING,
                         full_path_to_file=RESULT_FILE)
+
 
 url_region_phrases_list = get_list(URL_AND_KEYS_FILE)
 site, region, phrases = separate_url_and_region_and_phrases(url_region_phrases_list)
