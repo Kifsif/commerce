@@ -1,5 +1,5 @@
 from general.drv import get_driver, get_proxy
-from general.general import get_current_dir, write_list_to_file, write_phrase_to_log
+from general.general import get_current_dir, write_list_to_file, write_phrase_to_log, get_list
 import os
 import requests
 from requests.exceptions import ProxyError
@@ -7,36 +7,29 @@ from random import randint
 from time import sleep
 from bs4 import BeautifulSoup
 
-
+# Регионы https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/
 
 USE_SLEEP_TIME = True # При реальном парсинге всегда включать. Выключить задержку только для отладки.
 PARSING_PATH_PARTICLE = "../KeywordStuffing/"
 INIT_PATH_PARTICLE = PARSING_PATH_PARTICLE + "Init/"
-RESULT_FILE = os.path.join(get_current_dir(), PARSING_PATH_PARTICLE, 'Result/result.txt')
-URL_AND_KEYS_FILE = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "url_keys.txt")
+URL_AND_KEYS_FILE = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "init.csv")
 ENCODING = 'windows-1251'
-REGION = 213
 SIZE_OF_CHUNK = 10
-from itertools import islice
+ARSENKIN = 'https://arsenkin.ru/tools/filter/index.php'
+RESULT_FILE = "" # Инициализируется в функции write_table_open_tag.
+PARSE_RUSSIA = False
+PARSE_MOSCOW = False
 
-SITE = 'ritm-it.ru'
-# URL = "http://ip-api.com/" # Раскомментировать для тестов.
+# Обязательно строкой, а не цифрой!
+MOSCOW_REGION = '1' # С областью.
+RUSSIA_REGION = '225'
 
-URL = 'https://arsenkin.ru/tools/filter/index.php'
 
-
-phrases = ['купить ибп',
-           'купить ббп',
-           'купить ups',
-           'купить упс',
-           'купить ибп онлайн',
-           'купить ббп онлайн',
-           'купить ups онлайн',
-           'купить упсонлайн',
-           'ибп apc',
-           'мощный apc',
-           'серверный ибп']
-
+def separate_url_and_region_and_phrases(url_phrases_list):
+    url = url_phrases_list[0]
+    region = url_phrases_list[1]
+    phrases = url_phrases_list[2:]
+    return url, region, phrases
 
 def get_chunks_generator(phrases):
     for i in range(0, len(phrases), SIZE_OF_CHUNK):
@@ -62,20 +55,20 @@ def write_results(txt_str):
                        full_path_to_file=RESULT_FILE)
     return True
 
-def request_and_write_phrase(phrases_str):
+def request_and_write_phrase(phrases_str, site, region):
 
     proxies = {'http': 'http://{}'.format(get_proxy())}
     print(proxies)
 
     try:
-        r = requests.post(URL, proxies=proxies, data={'a_mode': 'getThis',
+        r = requests.post(ARSENKIN, proxies=proxies, data={'a_mode': 'getThis',
                                                       'ajax': 'Y',
                                                       'text': phrases_str,
-                                                      'site': SITE,
-                                                      'city': str(REGION)})
+                                                      'site': site,
+                                                      'city': region})
     except ProxyError:
         print("Bad proxy: {}".format(proxies))
-        request_and_write_phrase(phrases_str)
+        request_and_write_phrase(phrases_str, site)
 
     txt_str = r.text
     success = write_results(txt_str)
@@ -86,14 +79,25 @@ def request_and_write_phrase(phrases_str):
         request_and_write_phrase(phrases_str)
 
 
-def handle_chunks(chunks):
+def handle_chunks(chunks, site, region):
     for chunk in chunks:
         phrases_str = "\n".join(chunk)
-        request_and_write_phrase(phrases_str)
+        request_and_write_phrase(phrases_str, site, region)
         sleep_time = get_sleep_time()
         sleep(sleep_time)
 
-def write_table_open_tag():
+def get_domain(site):
+    import re
+    pattern = '\/\/(.*)\.'
+    match_obj = re.search(pattern, site, flags=re.IGNORECASE)
+    domain_name = match_obj.group(1)
+    return domain_name
+
+def write_table_open_tag(site, region):
+    global RESULT_FILE
+    domain = get_domain(site)
+    RESULT_FILE = os.path.join(get_current_dir(), PARSING_PATH_PARTICLE,
+                               'Result/{domain}_{region}_result.html'.format(domain=domain, region=region))
     write_phrase_to_log("<html>\n<table>\n",
                         write_mode='w',
                         enc=ENCODING,
@@ -105,7 +109,16 @@ def write_table_closing_tag():
                         enc=ENCODING,
                         full_path_to_file=RESULT_FILE)
 
-write_table_open_tag()
+url_region_phrases_list = get_list(URL_AND_KEYS_FILE)
+site, region, phrases = separate_url_and_region_and_phrases(url_region_phrases_list)
+write_table_open_tag(site, region)
 chunks = list(get_chunks_generator(phrases))
-handle_chunks(chunks)
+handle_chunks(chunks, site, region)
+
+assert isinstance(MOSCOW_REGION, str)
+assert isinstance(RUSSIA_REGION, str)
+if region != MOSCOW_REGION and PARSE_MOSCOW:
+    handle_chunks(chunks, site, MOSCOW_REGION)
+if region != RUSSIA_REGION and PARSE_RUSSIA:
+    handle_chunks(chunks, site, region)
 write_table_closing_tag()

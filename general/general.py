@@ -6,7 +6,6 @@ def get_current_date():
     current_date = datetime.date.today().strftime("%Y%m%d")
     return current_date
 
-
 def clear_files(logs_dir):
     try:
         shutil.rmtree(logs_dir)
@@ -15,11 +14,9 @@ def clear_files(logs_dir):
 
     os.makedirs(logs_dir)
 
-
 def get_current_dir():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(current_dir, "../")
-
 
 def get_list(full_path_to_file):
 
