@@ -7,7 +7,7 @@ import os
 
 WAIT_PERIOD = 760 # seconds
 USE_PROXY = True
-ATTEMPTS_TO_CHANGE_PROXY = 10
+# ATTEMPTS_TO_CHANGE_PROXY = 10
 
 
 copied_proxy_list = []
@@ -39,7 +39,8 @@ def get_driver():
         a_proxy = get_proxy()
         desired_capabilities = DesiredCapabilities.CHROME.copy()
         desired_capabilities["proxy"] = {'proxyType': 'MANUAL',
-         'httpProxy': a_proxy, 'autodetect': False}
+         'httpProxy': a_proxy, 'autodetect': False,
+         'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0'}
         # chrome_options.add_argument('--proxy-server={}'.format(a_proxy))
         # driver = Chrome(chrome_options=chrome_options, )
         driver = Chrome(desired_capabilities=desired_capabilities)

@@ -1,6 +1,6 @@
 import os
 from selenium.webdriver.common.by import By
-from general.drv import get_driver, ATTEMPTS_TO_CHANGE_PROXY, USE_PROXY
+from general.drv import get_driver, USE_PROXY
 from general.general import get_current_dir, get_list, clear_files, write_phrase_to_log
 
 global_phrases = []
