@@ -85,7 +85,7 @@ def request_and_write_phrase(phrases_str, site, region):
     if not success:
         print(txt_str)
         sleep(get_sleep_time())
-        request_and_write_phrase(phrases_str)
+        request_and_write_phrase(phrases_str, site, region)
 
 
 def handle_chunks(chunks, site, region):
@@ -114,16 +114,27 @@ def write_table_closing_tag():
                         full_path_to_file=RESULT_FILE)
 
 
-url_region_phrases_list = get_list(URL_AND_KEYS_FILE)
-site, region, phrases = separate_url_and_region_and_phrases(url_region_phrases_list)
-write_table_open_tag(site, region)
-chunks = list(get_chunks_generator(phrases))
-handle_chunks(chunks, site, region)
+def parse_all(site, region, phrases):
+    assert isinstance(MOSCOW_REGION, str)
+    assert isinstance(RUSSIA_REGION, str)
 
-assert isinstance(MOSCOW_REGION, str)
-assert isinstance(RUSSIA_REGION, str)
-if region != MOSCOW_REGION and PARSE_MOSCOW:
-    handle_chunks(chunks, site, MOSCOW_REGION)
-if region != RUSSIA_REGION and PARSE_RUSSIA:
+    write_table_open_tag(site, region)
+    chunks = list(get_chunks_generator(phrases))
     handle_chunks(chunks, site, region)
-write_table_closing_tag()
+    write_table_closing_tag()
+
+def get_initial_info():
+    url_region_phrases_list = get_list(URL_AND_KEYS_FILE)
+    site, region, phrases = separate_url_and_region_and_phrases(url_region_phrases_list)
+    return site, region, phrases
+
+site, region, phrases = get_initial_info()
+
+parse_all(site, region, phrases)
+
+
+if region != MOSCOW_REGION and PARSE_MOSCOW:
+    parse_all(site, MOSCOW_REGION, phrases)
+if region != RUSSIA_REGION and PARSE_RUSSIA:
+    parse_all(site, RUSSIA_REGION, phrases)
+
