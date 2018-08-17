@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0737ac41-560d-4263-926d-b4f3139c050d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/keyword_stuffing.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyword_stuffing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seo_combinator.py" beforeDir="false" afterPath="$PROJECT_DIR$/seo_combinator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/yparser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,53 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="keyword_stuffing.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
+      <file leaf-file-name="yparser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yparser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="70">
+              <caret line="130" column="96" lean-forward="true" selection-start-line="130" selection-start-column="96" selection-end-line="130" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <file leaf-file-name="seo_combinator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seo_combinator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2146">
-              <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="241" selection-start-line="241" selection-end-line="241" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_proxies.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_proxies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commerce.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commerce.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -67,8 +35,8 @@
       <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/general/general.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="66" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -87,10 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>writ</find>
-      <find>clear</find>
-      <find>file</find>
-      <find>log</find>
       <find>handle_login</find>
       <find>no</find>
       <find>get_log_path</find>
@@ -117,6 +81,10 @@
       <find>ATTEMPTS_TO_CHANGE_PROXY</find>
       <find>USE_PROXY</find>
       <find>prox</find>
+      <find>parsed_links</find>
+      <find>highl</find>
+      <find>collect_related_items</find>
+      <find>separate_phrases_and_minus_words</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,16 +108,16 @@
         <option value="$PROJECT_DIR$/b_parse.py" />
         <option value="$PROJECT_DIR$/create_pixel_tools_accounts.py" />
         <option value="$PROJECT_DIR$/test_proxies.py" />
-        <option value="$PROJECT_DIR$/yparser.py" />
         <option value="$PROJECT_DIR$/combine.py" />
         <option value="$PROJECT_DIR$/convert_encoding.py" />
         <option value="$PROJECT_DIR$/postgres_like_generator.py" />
         <option value="$PROJECT_DIR$/combinator.py" />
-        <option value="$PROJECT_DIR$/seo_combinator.py" />
         <option value="$PROJECT_DIR$/general/drv.py" />
         <option value="$PROJECT_DIR$/commerce.py" />
         <option value="$PROJECT_DIR$/general/general.py" />
         <option value="$PROJECT_DIR$/keyword_stuffing.py" />
+        <option value="$PROJECT_DIR$/yparser.py" />
+        <option value="$PROJECT_DIR$/seo_combinator.py" />
       </list>
     </option>
   </component>
@@ -165,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.keyword_stuffing">
+  <component name="RunManager" selected="Python.seo_combinator">
     <configuration name="bukvarix" type="PythonConfigurationType" factoryName="Python">
       <module name="commerce" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -438,18 +406,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1333" height="1025" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17704426" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48087433" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -470,11 +437,28 @@
           <line>38</line>
           <option name="timeStamp" value="301" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="all_variants==None" language="Python" />
+          <url>file://$PROJECT_DIR$/seo_combinator.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="dirty_variants is None" language="Python" />
+          <url>file://$PROJECT_DIR$/seo_combinator.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seo_combinator.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="361" />
+      <option name="time" value="379" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -496,6 +480,16 @@
       </expression>
     </expressions>
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>dirty_variants is None</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>all_variants==None</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>counter == 3928594</expression-string>
         <language-id>Python</language-id>
@@ -536,6 +530,26 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>a_string.casefold()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lower(a_string).() in a_list</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a_string.casefold() in a_list</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot; &quot;.join(minus_words)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>ord(url[0]) != 65279</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -557,26 +571,6 @@
       </expression>
       <expression>
         <expression-string>ord(site[0])==chr(65279)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ord(site[0])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>site[1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>site</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>site_0[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -751,13 +745,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/213_last_phrase.txt" />
     <entry file="file://$PROJECT_DIR$/1_last_phrase.txt" />
-    <entry file="file://$PROJECT_DIR$/yparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/combine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -786,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seo_combinator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -816,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commerce.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="225">
           <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -826,42 +806,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_proxies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="180">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="3615">
           <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2146">
+        <state relative-caret-position="24945">
           <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/general/general.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="66" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
+    <entry file="file://$PROJECT_DIR$/yparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="70">
+          <caret line="130" column="96" lean-forward="true" selection-start-line="130" selection-start-column="96" selection-end-line="130" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seo_combinator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>

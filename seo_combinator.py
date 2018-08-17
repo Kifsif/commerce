@@ -60,8 +60,10 @@ def prepare_lists():
 
 def get_variants(a_string):
     for a_list in VARIANTS:
-        if a_string in a_list:
+        if a_string.casefold() in (elem.casefold() for elem in a_list):
             return a_list
+            pass # Отладка
+        assert a_list is not None
 
 def separate_phrases_and_minus_words(a_list):
     phrases = []
@@ -127,5 +129,6 @@ def combine_variants(phrase):
 
 clear_files(RESULT_PATH_DIR)
 prepare_lists()
-combine_variants(['1', 'online', 'ups', 'тн вэд'])
-pass
+for phrase in PHRASES:
+    combine_variants(phrase)
+

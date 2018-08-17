@@ -6,9 +6,11 @@ from time import sleep
 
 SELECTED_REGION = 1 # https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/
 PROJECT_DIR = get_current_dir()
-PAGES_TO_PARSE = 10
+PAGES_TO_PARSE = 3
 LOGS_DIR = os.path.join(get_current_dir(), "../YandexParsing/log")
-
+ENCODING = 'utf-8'
+RESULT_FILE = os.path.join(LOGS_DIR, "{}_result.csv".format(SELECTED_REGION))
+PARSE_RELATED_WORDS = False
 
 def get_region():
     # https://tech.yandex.ru/xml/doc/dg/reference/regions-docpage/
@@ -115,29 +117,34 @@ def handle_phrase(phrase):
                 parsed_links_tmp = collect_links(driver)
 
                 print("parsed_links")
-                link_log_file = "{}.csv".format(SELECTED_REGION)
+                # link_log_file = "{}.csv".format(SELECTED_REGION)
                 parsed_links = prepare_csv(phrase, parsed_links_tmp)
-                write_list_to_file(LOGS_DIR, parsed_links, link_log_file)
+
+                write_list_to_file(parsed_links, ENCODING, RESULT_FILE)
 
                 print("highlited_words")
                 highlited_words_log_file = "{}_highlighted.csv".format(SELECTED_REGION)
                 highlited_words_tmp = get_highlighted_words(driver)
                 highlited_words = prepare_csv(phrase, highlited_words_tmp)
-                write_list_to_file(LOGS_DIR, highlited_words, highlited_words_log_file)
+                full_path_to_highlited_words_file = os.path.join(LOGS_DIR, highlited_words_log_file)
 
-                print("tmp_related_item")
-                tmp_related_item_list = collect_related_items(driver)
-                related_item_list = prepare_csv(phrase, tmp_related_item_list)
+                write_list_to_file(highlited_words, ENCODING, full_path_to_highlited_words_file)
 
-                print("related_items")
-                related_items_log_file = "{}_related_items.csv".format(SELECTED_REGION)
-                write_list_to_file(LOGS_DIR, related_item_list, related_items_log_file)
+                if PARSE_RELATED_WORDS:
+                    print("tmp_related_item")
+                    tmp_related_item_list = collect_related_items(driver)
+                    related_item_list = prepare_csv(phrase, tmp_related_item_list)
+
+                    print("related_items")
+                    related_items_log_file = "{}_related_items.csv".format(SELECTED_REGION)
+                    full_path_to_log_file = os.path.join(LOGS_DIR, related_items_log_file)
+                    write_list_to_file(related_item_list, ENCODING, full_path_to_log_file)
 
                 print("go_to_next_page")
                 go_to_next_page(driver)
 
             log_file = os.path.join(LOGS_DIR, "{}_last_phrase.txt".format(SELECTED_REGION))
-            write_phrase_to_log(phrase, log_file)
+            write_phrase_to_log(phrase=phrase, write_mode='a', enc=ENCODING, full_path_to_file=log_file)
             driver.quit()
             break
         except Exception as e:
