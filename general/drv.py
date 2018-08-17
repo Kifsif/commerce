@@ -5,6 +5,7 @@ from .general import get_list, get_current_dir
 from selenium.webdriver import DesiredCapabilities
 import os
 
+
 WAIT_PERIOD = 760 # seconds
 USE_PROXY = True
 # ATTEMPTS_TO_CHANGE_PROXY = 10
@@ -17,9 +18,15 @@ full_path_to_proxy_list = os.path.join(project_dir, "../CommerceParsing/Init/pro
 
 init_proxy_list = get_list(full_path_to_proxy_list)
 
+PROXY_BLACK_SET = set()
 
-def send_proxy_to_black_list(a_proxy):
+def send_proxy_to_black_set(a_proxy):
+    global PROXY_BLACK_LIST
+    PROXY_BLACK_SET.add(a_proxy)
     pass
+
+
+
 
 def get_proxy():
     global copied_proxy_list
@@ -27,7 +34,12 @@ def get_proxy():
         a_proxy = copied_proxy_list.pop()
     except IndexError:
         copied_proxy_list = deepcopy(init_proxy_list)
+        copied_proxy_set = set(copied_proxy_list)
+        copied_proxy_list = list(copied_proxy_set)
         a_proxy = copied_proxy_list.pop()
+
+    if a_proxy in PROXY_BLACK_SET:
+        get_proxy()
 
     return a_proxy
 

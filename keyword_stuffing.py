@@ -63,18 +63,19 @@ def write_results(txt_str):
 
 def request_and_write_phrase(phrases_str, site, region):
 
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    }
+
     proxies = {'http': 'http://{}'.format(get_proxy())}
     print(proxies)
 
-    site_1 = 'www.ritm-it.ru'
-    region_1 = '225'
-
     try:
-        r = requests.post(ARSENKIN, proxies=proxies, data={'a_mode': 'getThis',
-                                                      'ajax': 'Y',
-                                                      'text': phrases_str,
-                                                      'site': site,
-                                                      'city': region})
+        r = requests.post(ARSENKIN, headers=headers, proxies=proxies, data={'a_mode': 'getThis',
+                                                                            'ajax': 'Y',
+                                                                            'text': phrases_str,
+                                                                            'site': site,
+                                                                            'city': region})
     except ProxyError:
         print("Bad proxy: {}".format(proxies))
         request_and_write_phrase(phrases_str, site, region)

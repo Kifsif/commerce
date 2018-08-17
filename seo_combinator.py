@@ -40,22 +40,22 @@ def prepare_lists():
         with open(os.path.join(INIT_DIR, f), encoding=FILE_ENCODING) as csvfile:
             import csv
             csv_reader = csv.reader(csvfile, delimiter=';')
-            csv = list(csv_reader)
+            csv_data = list(csv_reader)
 
             if "plus" in f:
                 global PLUS_WORDS
-                PLUS_WORDS = handle_csv_with_one_list(csv)
+                PLUS_WORDS = handle_csv_with_one_list(csv_data)
             elif "minus" in f:
                 global MINUS_WORDS
-                MINUS_WORDS = handle_csv_with_one_list(csv)
+                MINUS_WORDS = handle_csv_with_one_list(csv_data)
             elif "phrases" in f:
                 global PHRASES
-                tmp_csv = delete_empty_values_from_multidimensional_list(csv)
+                tmp_csv = delete_empty_values_from_multidimensional_list(csv_data)
                 PHRASES = tmp_csv
             else:
                 assert "variants" in f
                 global VARIANTS
-                tmp_csv = delete_empty_values_from_multidimensional_list(csv)
+                tmp_csv = delete_empty_values_from_multidimensional_list(csv_data)
                 VARIANTS = tmp_csv
 
 def get_variants(a_string):
