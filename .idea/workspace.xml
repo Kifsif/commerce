@@ -4,9 +4,7 @@
     <list default="true" id="0737ac41-560d-4263-926d-b4f3139c050d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general/drv.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/drv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/general.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyword_stuffing.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyword_stuffing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seo_combinator.py" beforeDir="false" afterPath="$PROJECT_DIR$/seo_combinator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_competitors.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_competitors.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="keyword_stuffing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-795">
-              <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse_competitors.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="parse_competitors.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse_competitors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="15">
+              <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -38,11 +27,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/general/general.py">
+      <file leaf-file-name="parse_megaindex.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parse_megaindex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="159">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keyword_stuffing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/combine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +63,8 @@
       <file leaf-file-name="drv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/general/drv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -70,8 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>0</find>
-      <find>get_em</find>
       <find>click()</find>
       <find>как</find>
       <find>прир</find>
@@ -100,6 +111,8 @@
       <find>\n</find>
       <find>proxy</find>
       <find>text</find>
+      <find>request</find>
+      <find>pop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,8 +145,9 @@
         <option value="$PROJECT_DIR$/seo_combinator.py" />
         <option value="$PROJECT_DIR$/keyword_stuffing.py" />
         <option value="$PROJECT_DIR$/general/general.py" />
-        <option value="$PROJECT_DIR$/general/drv.py" />
         <option value="$PROJECT_DIR$/parse_competitors.py" />
+        <option value="$PROJECT_DIR$/general/drv.py" />
+        <option value="$PROJECT_DIR$/parse_megaindex.py" />
       </list>
     </option>
   </component>
@@ -149,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,12 +180,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/michael/PycharmProjects/commerce/commerce.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parse_competitors.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parse_megaindex.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -193,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_competotors">
+  <component name="RunManager" selected="Python.parse_megaindex">
     <configuration name="bukvarix" type="PythonConfigurationType" factoryName="Python">
       <module name="commerce" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,6 +344,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="$PROJECT_DIR$/../" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -337,6 +352,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_competitors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="parse_megaindex" type="PythonConfigurationType" factoryName="Python">
+      <module name="commerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="$PROJECT_DIR$/../" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_megaindex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,6 +456,7 @@
       <item itemvalue="Python.postgres_like_gen" />
       <item itemvalue="Python.seo_combinator" />
       <item itemvalue="Python.parse_competotors" />
+      <item itemvalue="Python.parse_megaindex" />
       <item itemvalue="Python.keyword_stuffing" />
       <item itemvalue="Python.drv" />
       <item itemvalue="Python.commerce" />
@@ -480,7 +515,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/parse_competitors.py</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="412" />
         </line-breakpoint>
       </breakpoints>
@@ -494,7 +529,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="413" />
+      <option name="time" value="462" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -566,54 +601,53 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>soup.findAll(&quot;img&quot;, alt=True)</expression-string>
+        <expression-string>captcha</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>soup.findAll(&quot;img&quot;)</expression-string>
+        <expression-string>driver.find_element_by_xpath('//td[contains(text(), &quot;Ничего не найдено&quot;)]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>soup.findAll(&quot;img&quot;, alt='')</expression-string>
+        <expression-string>driver.find_element_by_xpath('//*[contains(text(), &quot;Ничего не найдено&quot;)]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>INIT_DIR</expression-string>
+        <expression-string>driver.find_element_by_xpath('//*[contains(text(), &quot;Москва&quot;)]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>a_list</expression-string>
+        <expression-string>driver.find_element_by_xpath('//*[contains(text(), &quot;ПАКЕТНЫЕ УСЛУГИ ПРОДВИЖЕНИЯ&quot;)]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>a_list[0].text</expression-string>
+        <expression-string>driver.find_elements_by_xpath('//td[text()=&quot;ПАКЕТНЫЕ УСЛУГИ ПРОДВИЖЕНИЯ&quot;]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>get_data_from_competitor(current_link)</expression-string>
+        <expression-string>driver.find_elements_by_xpath('//td')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>a_line</expression-string>
+        <expression-string>driver.find_elements_by_xpath('//td[contains(text(), &quot;ПАКЕТНЫЕ УСЛУГИ ПРОДВИЖЕНИЯ&quot;]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>a_list[0].attrs.get(&quot;content&quot;)</expression-string>
+        <expression-string>driver.find_elements_by_xpath('//td[contains(text(), &quot;П&quot;]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/initial_data/word_list.txt" />
     <entry file="file://$PROJECT_DIR$/initial_data/email_list.txt" />
     <entry file="file://$PROJECT_DIR$/commerce.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -767,24 +801,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/213_last_phrase.txt" />
     <entry file="file://$PROJECT_DIR$/1_last_phrase.txt" />
-    <entry file="file://$PROJECT_DIR$/combine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/convert_encoding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgres_like_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -830,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seo_combinator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="57" column="81" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -858,36 +871,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seo_combinator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="57" column="81" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgres_like_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/general/general.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_competitors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/general/drv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
+    <entry file="file://$PROJECT_DIR$/parse_megaindex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-795">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse_competitors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="159">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

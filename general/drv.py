@@ -6,7 +6,7 @@ from selenium.webdriver import DesiredCapabilities
 import os
 
 
-WAIT_PERIOD = 760 # seconds
+WAIT_PERIOD = 60 # seconds
 USE_PROXY = True
 # ATTEMPTS_TO_CHANGE_PROXY = 10
 

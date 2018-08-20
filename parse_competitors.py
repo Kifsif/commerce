@@ -6,6 +6,7 @@ from general.drv import get_proxy
 import requests
 from requests.exceptions import ProxyError
 from general.general import write_phrase_to_log
+from time import sleep
 
 LINK_COL = 1 # В какой колонке в csv-файле находится ссылка. Начинть с 0.
 
@@ -103,6 +104,7 @@ def get_html(a_url, counter=0):
     except requests.exceptions.RequestException as e:
         print("{}: {}: {}".format(a_url, current_proxy, e))
         counter += 1
+        sleep(3)
         get_html(a_url, counter)
 
     if response.status_code != 200:
