@@ -1,6 +1,8 @@
 from itertools import product
 import os
 from general.general import get_current_dir, write_phrase_to_log, clear_files
+import sys
+import re
 
 PATH_PARTICLE = "../SeoCombinator/"
 INIT_PATH_DIR = PATH_PARTICLE + "Init/"
@@ -10,8 +12,6 @@ FILE_ENCODING = 'windows-1251'
 
 INIT_DIR = os.path.join(get_current_dir(), INIT_PATH_DIR)
 
-file_list = os.listdir(INIT_DIR)
-
 PLUS_WORDS = []
 MINUS_WORDS = []
 PHRASES = []
@@ -20,13 +20,14 @@ VARIANTS = []
 def handle_csv_with_one_list(csv_list_from_reader):
     # Файлы с общими плюс- и минус-словами содержат только одну строку.
     tmp_list = csv_list_from_reader[0]
-    tmp_list = delete_empty_values(tmp_list)
-    return tmp_list
+    return [*filter(None, tmp_list)]
+
 
 def delete_empty_values(a_list):
     # Нулевой элемент в списке phrases содержит признак необходимости парсинга лесенкой.
+    # На всех других листах кроме листов с плюс- и минус-словами этот столбец должен присутствовать, но быть пустым.
     # Поэтому нулевые элементы в списке не чистим от пустых значений.
-    # Есть риск, что на других листах нулевой элемент незаполнен, но это не контролируем:
+    # Есть риск, что на других листах нулевой элемент не заполнен пустым значением, но это не контролируем:
     # это проверяется в экселе, а изменение CSV-файлов по пути до комбинатора - ответственность пользователя.
 
     return [a_list[0], *filter(None, a_list[1:])]
@@ -35,7 +36,56 @@ def delete_empty_values_from_multidimensional_list(a_list):
     tmp_list = [delete_empty_values(current_list) for current_list in a_list]
     return tmp_list
 
-def prepare_lists():
+
+
+def prepare_variants(variants_file_name):
+    global VARIANTS
+
+    with open(os.path.join(INIT_DIR, variants_file_name), encoding=FILE_ENCODING) as csvfile:
+        import csv
+        csv_reader = csv.reader(csvfile, delimiter=';')
+        csv_data = list(csv_reader)
+        tmp_csv = delete_empty_values_from_multidimensional_list(csv_data)
+        VARIANTS = tmp_csv
+
+def separate_variants_and_others(file_names_list):
+    # a_list: список имен файлов, один из которых обязательно в имени файлов содержит "variants".
+    # Отделить файл с вариантами от остальных файлов, т.к. варианты нужны для подготовки вариантов плюс-слов.
+    # Т.е. варианты нужны первым делом.
+
+    variants_file = ""
+    other_files = []
+
+    for file_name in file_names_list:
+        if 'variants' in file_name:
+            variants_file = file_name
+        else:
+            assert (("minus" in file_name) or ("plus" in file_name) or ("phrases" in file_name))
+            other_files.append(file_name)
+
+    return variants_file, other_files
+
+
+
+    return tmp_list[0] # Искключение не ловим, т.к. такой
+                       # элемент обязательно должен быть (см. комментарий к параметру a_list).
+
+
+def prepare_variants(file_name):
+    with open(os.path.join(INIT_DIR, file_name), encoding=FILE_ENCODING) as csvfile:
+        import csv
+        csv_reader = csv.reader(csvfile, delimiter=';')
+        csv_data = list(csv_reader)
+        global VARIANTS
+        tmp_csv = delete_empty_values_from_multidimensional_list(csv_data)
+        VARIANTS = tmp_csv
+
+
+def prepare_lists(file_list):
+    variants_file, other_files = separate_variants_and_others(file_list)
+    prepare_variants(variants_file)
+
+
     for f in file_list:
         with open(os.path.join(INIT_DIR, f), encoding=FILE_ENCODING) as csvfile:
             import csv
@@ -44,7 +94,8 @@ def prepare_lists():
 
             if "plus" in f:
                 global PLUS_WORDS
-                PLUS_WORDS = handle_csv_with_one_list(csv_data)
+                tmp_plus_words = handle_csv_with_one_list(csv_data)
+                PLUS_WORDS = get_variants_for_plus_words(tmp_plus_words)
             elif "minus" in f:
                 global MINUS_WORDS
                 MINUS_WORDS = handle_csv_with_one_list(csv_data)
@@ -52,18 +103,25 @@ def prepare_lists():
                 global PHRASES
                 tmp_csv = delete_empty_values_from_multidimensional_list(csv_data)
                 PHRASES = tmp_csv
-            else:
-                assert "variants" in f
-                global VARIANTS
-                tmp_csv = delete_empty_values_from_multidimensional_list(csv_data)
-                VARIANTS = tmp_csv
 
-def get_variants(a_string):
+
+def get_variants_for_string(a_string):
     for a_list in VARIANTS:
         if a_string.casefold() in (elem.casefold() for elem in a_list):
             return a_list
-            pass # Отладка
-        assert a_list is not None
+        assert a_list is not None # Сюда не должны попасть. Обязательно вариант должен присутствовать.
+
+def get_variants_for_plus_words(a_list):
+    # Получить общий список вариантов плюс-слов (все варианты всех плюс-слов в общую кучу - в один список).
+
+    tmp_result = []
+
+    for element in a_list:
+        variants = get_variants_for_string(element)
+        tmp_result += variants
+
+    return tmp_result
+
 
 def separate_phrases_and_minus_words(a_list):
     phrases = []
@@ -79,7 +137,7 @@ def separate_phrases_and_minus_words(a_list):
 def write_upstairs(a_string):
     # Записать в результирующий файл однословники лесенкой.
 
-    all_variants = get_variants(a_string)
+    all_variants = get_variants_for_string(a_string)
     phrases, minus_words = separate_phrases_and_minus_words(all_variants)
 
     minus_words_str = " ".join(minus_words)
@@ -106,15 +164,28 @@ def write_list_to_file(result_phrases_list):
         tmp_str = " ".join(phrase)
         write_phrase_to_log(phrase=tmp_str, write_mode="a", enc=FILE_ENCODING, full_path_to_file=RESULT_FILE_PATH)
 
+
+def get_plus_words_variants():
+    tmp_result = []
+
+    for element in PLUS_WORDS:
+        variants = get_variants_for_string(element)
+        tmp_result += variants
+
+    return tmp_result
+
+
 def combine_variants(phrase):
     result_phrases_list = []
+    result_phrases_list.append(PLUS_WORDS)
+
     result_minus_list = []
     upstairs_flag = phrase[0] # Получим флаг необходимости парсинга лесенкой. Он всегда в нулевом элементе.
 
     phrase_without_upstairs_flag = phrase[1:] # Нулевой элемент не берем, т.к. он содержит флаг парсинга лесенкой.
 
     for current_key in phrase_without_upstairs_flag:
-        dirty_variants = get_variants(current_key)
+        dirty_variants = get_variants_for_string(current_key)
         variants, minus_words = separate_phrases_and_minus_words(dirty_variants)
 
         if upstairs_flag:
@@ -128,7 +199,7 @@ def combine_variants(phrase):
     write_list_to_file(result_phrases_list)
 
 clear_files(RESULT_PATH_DIR)
-prepare_lists()
+prepare_lists(os.listdir(INIT_DIR))
 for phrase in PHRASES:
     combine_variants(phrase)
 
