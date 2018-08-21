@@ -4,6 +4,7 @@ from general.general import get_current_dir, write_phrase_to_log, clear_files
 import sys
 import re
 
+
 PATH_PARTICLE = "../SeoCombinator/"
 INIT_PATH_DIR = PATH_PARTICLE + "Init/"
 RESULT_PATH_DIR = os.path.join(PATH_PARTICLE, "Result")
@@ -16,6 +17,7 @@ PLUS_WORDS = []
 MINUS_WORDS = []
 PHRASES = []
 VARIANTS = []
+WORDSTAT_LIMIT = 7 # Вордстат парсит только 7 слов.
 
 def handle_csv_with_one_list(csv_list_from_reader):
     # Файлы с общими плюс- и минус-словами содержат только одну строку.
@@ -134,8 +136,36 @@ def separate_phrases_and_minus_words(a_list):
             phrases.append(element)
     return phrases, minus_words
 
+def create_list_with_one_element(phrase_list):
+    tmp_list = [element for element in phrase_list]
+    tmp_list = " ".join(tmp_list)
+    tmp_list = tmp_list.split()
+    return tmp_list[:WORDSTAT_LIMIT]
+
+
+def cut_words_to_limit(phrase_list):
+    # Проверить, сколько слов во фразе.
+    # Если семь или более, вернуть только 7 слов. Лишние слова просто обрезаются.
+    number_of_words = count_words_phrases_list(phrase_list)
+    if number_of_words > WORDSTAT_LIMIT:
+        new_phrase_list = create_list_with_one_element(phrase_list)
+        return True, new_phrase_list
+    return False, phrase_list
+
+def count_words_phrases_list(phrases_list):
+    # Получен список фраз. Например, "["федеративная республика германии", "экономика германии"].
+    # Посчитать, сколько всего слов во всех фразах. В данном примере - 5 слов.
+
+    sum = 0
+    for phrase in phrases_list:
+        tmp_list = phrase.split()
+        sum += len(tmp_list)
+
+    return sum
+
 def write_upstairs(a_string):
-    # Записать в результирующий файл однословники лесенкой.
+    # Записать в результирующий файл фразы лесенкой.
+
 
     all_variants = get_variants_for_string(a_string)
     phrases, minus_words = separate_phrases_and_minus_words(all_variants)
@@ -143,15 +173,26 @@ def write_upstairs(a_string):
     minus_words_str = " ".join(minus_words)
 
     for phrase in phrases:
-        for i in range(2, 8): # Однословники не нужны, поэтому стартуем с 2. Wordstat принимает не более 7 слов. Поэтому с 2 до 8.
-            tmp_result = (phrase + " ") * i # Образуется лишний технический пробел в конце.
+        for i in range(1, 8): #  Wordstat принимает не более 7 слов.
+            tmp_list = [phrase for _ in range(i)]
+
+            if len(tmp_list) == 1: # Однословники не нужны.
+                continue
+
+            break_loop, tmp_list = cut_words_to_limit(tmp_list)
+            phrase_for_writing = " ".join(tmp_list)
             tmp_result = '{symb}{phr}{symb} {minus}'.format(symb='"',
-                                                            phr=tmp_result[:-1], # Не включаем технический пробел.
+                                                            phr=phrase_for_writing,
                                                             minus=minus_words_str)
+
             write_phrase_to_log(phrase=tmp_result,
                                 write_mode='a',
                                 enc=FILE_ENCODING,
                                 full_path_to_file=RESULT_FILE_PATH)
+
+            if break_loop:
+                break
+
 
 def combine_phrases_and_minus_words(phrases, minus_words_list):
     result_list = []
