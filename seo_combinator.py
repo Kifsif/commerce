@@ -216,9 +216,13 @@ def get_plus_words_variants():
     return tmp_result
 
 
-def combine_variants(phrase):
+def combine_variants(phrase, parse_plus_words=False):
+    # Сначала запишем комбинацию вариантов без плюс-слов, затем рекурсивно вызовем функцию и запишем комбинацию вариантов
+    # с плюс-словами.
     result_phrases_list = []
-    result_phrases_list.append(PLUS_WORDS)
+
+    if parse_plus_words:
+        result_phrases_list.append(PLUS_WORDS)
 
     result_minus_list = []
     upstairs_flag = phrase[0] # Получим флаг необходимости парсинга лесенкой. Он всегда в нулевом элементе.
@@ -229,7 +233,7 @@ def combine_variants(phrase):
         dirty_variants = get_variants_for_string(current_key)
         variants, minus_words = separate_phrases_and_minus_words(dirty_variants)
 
-        if upstairs_flag:
+        if upstairs_flag == '1':
             write_upstairs(current_key)
 
         result_phrases_list.append(variants)
@@ -238,6 +242,9 @@ def combine_variants(phrase):
     cartesian_production = list(product(*result_phrases_list))
     result_phrases_list = combine_phrases_and_minus_words(phrases=cartesian_production, minus_words_list=result_minus_list)
     write_list_to_file(result_phrases_list)
+
+    if not parse_plus_words:
+        combine_variants(phrase, parse_plus_words=True)
 
 clear_files(RESULT_PATH_DIR)
 prepare_lists(os.listdir(INIT_DIR))

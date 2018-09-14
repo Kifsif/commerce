@@ -43,10 +43,6 @@ phrase_counter = get_phrase_counter_val()
 
 def get_current_phrase_bunch():
     global global_phrases
-    # current_phrase_bunch = global_phrases[:100]
-    # global_phrases = global_phrases[100:]
-    # phrase_counter += 100
-
     start = phrase_counter
     end = start + PHRASE_BUNCH_SIZE
 

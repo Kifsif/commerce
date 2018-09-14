@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0737ac41-560d-4263-926d-b4f3139c050d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine.py" beforeDir="false" afterPath="$PROJECT_DIR$/combine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commerce.py" beforeDir="false" afterPath="$PROJECT_DIR$/commerce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/drv.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/drv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword_stuffing.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyword_stuffing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_megaindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_megaindex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seo_combinator.py" beforeDir="false" afterPath="$PROJECT_DIR$/seo_combinator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/yparser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="seo_combinator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seo_combinator.py">
+      <file leaf-file-name="parse_megaindex.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parse_megaindex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,36 +44,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>маль</find>
-      <find>дево</find>
-      <find>sleep</find>
-      <find>SELECTED_REGION</find>
-      <find>get</find>
-      <find>write</find>
-      <find>write_phrase_to_log</find>
-      <find>ATTEMPTS_TO_CHANGE_PROXY</find>
-      <find>USE_PROXY</find>
-      <find>prox</find>
-      <find>parsed_links</find>
-      <find>highl</find>
-      <find>separate_phrases_and_minus_words</find>
-      <find>collect_related_items</find>
-      <find>h1</find>
-      <find>init_d</find>
-      <find>get_html</find>
-      <find>get_data_from_competitor</find>
-      <find>\n</find>
-      <find>proxy</find>
-      <find>text</find>
-      <find>request</find>
-      <find>pop</find>
-      <find>plu</find>
-      <find>plus_words</find>
-      <find>VARIANTS</find>
       <find>minus</find>
       <find>prepare_lists</find>
       <find>лесен</find>
       <find>WORDSTAT_LIMIT</find>
+      <find>upsta</find>
+      <find>phrases</find>
+      <find>UPSTAI</find>
+      <find>get_l</find>
+      <find>highlited_words</find>
+      <find>init_number_of_files</find>
+      <find>log</find>
+      <find>region</find>
+      <find>init</find>
+      <find>list</find>
+      <find>path_to_result_file</find>
+      <find>ENCODING</find>
+      <find>read</find>
+      <find>write_ph</find>
+      <find>write</find>
+      <find>choice</find>
+      <find>http://lpolya.ru/index.php/topic,7061.msg193947.html</find>
+      <find>get_start_position_to_parse</find>
+      <find>urls_to_par</find>
+      <find>URLS_TO_PARSE</find>
+      <find>init_urls_to_parse</find>
+      <find>move</find>
+      <find>change</find>
+      <find>start</find>
+      <find>mega</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,18 +97,19 @@
         <option value="$PROJECT_DIR$/b_parse.py" />
         <option value="$PROJECT_DIR$/create_pixel_tools_accounts.py" />
         <option value="$PROJECT_DIR$/test_proxies.py" />
-        <option value="$PROJECT_DIR$/combine.py" />
         <option value="$PROJECT_DIR$/convert_encoding.py" />
         <option value="$PROJECT_DIR$/postgres_like_generator.py" />
         <option value="$PROJECT_DIR$/combinator.py" />
-        <option value="$PROJECT_DIR$/commerce.py" />
-        <option value="$PROJECT_DIR$/yparser.py" />
-        <option value="$PROJECT_DIR$/keyword_stuffing.py" />
-        <option value="$PROJECT_DIR$/general/general.py" />
         <option value="$PROJECT_DIR$/parse_competitors.py" />
-        <option value="$PROJECT_DIR$/general/drv.py" />
-        <option value="$PROJECT_DIR$/parse_megaindex.py" />
         <option value="$PROJECT_DIR$/seo_combinator.py" />
+        <option value="$PROJECT_DIR$/keyword_stuffing.py" />
+        <option value="$PROJECT_DIR$/commerce.py" />
+        <option value="$PROJECT_DIR$/buy_yandex_acc.py" />
+        <option value="$PROJECT_DIR$/general/general.py" />
+        <option value="$PROJECT_DIR$/yparser.py" />
+        <option value="$PROJECT_DIR$/general/drv.py" />
+        <option value="$PROJECT_DIR$/combine.py" />
+        <option value="$PROJECT_DIR$/parse_megaindex.py" />
       </list>
     </option>
   </component>
@@ -137,15 +146,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/michael/PycharmProjects/commerce/commerce.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parse_megaindex.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/buy_yandex_acc.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/general" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.seo_combinator">
+  <component name="RunManager" selected="Python.parse_megaindex">
     <configuration name="bukvarix" type="PythonConfigurationType" factoryName="Python">
       <module name="commerce" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +184,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b_parse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="buy_yandex_acc" type="PythonConfigurationType" factoryName="Python">
+      <module name="commerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="$PROJECT_DIR$/../" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buy_yandex_acc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -417,6 +445,7 @@
       <item itemvalue="Python.create_pixel_tools_accounts" />
       <item itemvalue="Python.test_proxies" />
       <item itemvalue="Python.yparser" />
+      <item itemvalue="Python.buy_yandex_acc" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -436,10 +465,9 @@
     <frame x="67" y="25" width="1333" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17704426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32708177" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
@@ -453,6 +481,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -461,15 +490,20 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/convert_encoding.py</url>
           <line>38</line>
           <option name="timeStamp" value="301" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/parse_competitors.py</url>
           <line>47</line>
           <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/buy_yandex_acc.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="608" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -482,14 +516,8 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="526" />
+      <option name="time" value="664" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="VARIANTS" />
-        <watch expression="sys.version" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -538,6 +566,26 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>URLS_TO_PARSE</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>URLS_TO_PARSE[-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>URLS_TO_PARSE[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(URLS_TO_PARSE)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>sys.version</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -565,61 +613,53 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>tmp_list[:WORDSTAT_LIMIT+1]</expression-string>
+        <expression-string>last_line_in_log[:delimter_position]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>PHRASES</expression-string>
+        <expression-string>file_list</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[*filter(None, tmp_list)]</expression-string>
+        <expression-string>result_file</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>handle_csv_with_one_list(csv_data)</expression-string>
+        <expression-string>glob.glob(source_files_mask)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[tmp_list[0], *filter(None, tmp_list)]</expression-string>
+        <expression-string>pd.read_csv(path_to_raw_file)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>get_variants_for_plus_words(tmp_plus_words)</expression-string>
+        <expression-string>URLS_TO_PARSE</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.search('variants', file_name)</expression-string>
+        <expression-string>URLS_TO_PARSE.index(last_line_in_log)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(&quot;minus&quot; in file_name) or (&quot;plus&quot; in file_name) or (&quot;phrases&quot; in file_name)</expression-string>
+        <expression-string>last_line_in_log</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sys.version</expression-string>
+        <expression-string>last_line_in_log.index(&quot;DELIMITER&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/initial_data/email_list.txt" />
-    <entry file="file://$PROJECT_DIR$/commerce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="157" column="30" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commerce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -756,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1721">
-          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/213_last_phrase.txt" />
     <entry file="file://$PROJECT_DIR$/1_last_phrase.txt" />
     <entry file="file://$PROJECT_DIR$/convert_encoding.py">
@@ -807,20 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commerce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="130" column="96" lean-forward="true" selection-start-line="130" selection-start-column="96" selection-end-line="130" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.6/encodings/cp1251.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -835,64 +854,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
+    <entry file="file://$PROJECT_DIR$/seo_combinator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="94" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general/general.py">
+    <entry file="file://$PROJECT_DIR$/commerce.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="140">
+          <caret line="27" selection-start-line="27" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_competitors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
+        <state relative-caret-position="1575">
           <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/combine.py">
+    <entry file="file://$PROJECT_DIR$/keyword_stuffing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="1530">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="129" column="10" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/selenium/webdriver/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy_yandex_acc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/general/drv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="45">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parse_megaindex.py">
+    <entry file="file://$PROJECT_DIR$/yparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="312" column="33" selection-start-line="312" selection-start-column="33" selection-end-line="312" selection-end-column="33" />
+        <state relative-caret-position="390">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seo_combinator.py">
+    <entry file="file://$PROJECT_DIR$/combine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_megaindex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

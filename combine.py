@@ -4,12 +4,16 @@ import codecs
 from general.general import clear_files
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-source_files_dir = "/home/michael/Downloads/"
+# source_files_dir = "/home/michael/Downloads/"
+source_files_dir = "/home/michael/Documents/Megaindex/Downloads/Oknamassiv/"
+
 source_files_mask = source_files_dir + "*.csv"
 
 
+
+
 # 'utf-8', 'windows-1251'
-READ_ENCODING = 'utf-8'
+READ_ENCODING = 'windows-1251'
 WRITE_ENCODING = 'windows-1251'
 
 result_file_dir = os.path.join(current_dir, "../CombinedFiles")
@@ -20,7 +24,6 @@ result_file = os.path.join(result_file_dir, 'result.csv')
 
 file_list = glob.glob(source_files_mask)
 
-#read input file
 
 def combine(first_column_only = False):
     if first_column_only:
@@ -63,4 +66,4 @@ def combine(first_column_only = False):
                     pass # Поставить точку останова и смотреть в каждом конкретном случае.
 
 
-combine(first_column_only = False)
+combine(first_column_only = True)

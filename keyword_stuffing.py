@@ -13,11 +13,12 @@ USE_SLEEP_TIME = True # При реальном парсинге всегда в
 PARSING_PATH_PARTICLE = "../KeywordStuffing/"
 INIT_PATH_PARTICLE = PARSING_PATH_PARTICLE + "Init/"
 URL_AND_KEYS_FILE = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "init.csv")
-ENCODING = 'windows-1251'
+READ_ENCODING = 'utf-8'
+WRITE_ENCODING = 'utf-8'
 SIZE_OF_CHUNK = 10
 ARSENKIN = 'https://arsenkin.ru/tools/filter/index.php'
 RESULT_FILE = "" # Инициализируется в функции write_table_open_tag.
-PARSE_RUSSIA = False
+PARSE_RUSSIA = True
 PARSE_MOSCOW = True
 
 # Обязательно строкой, а не цифрой!
@@ -57,7 +58,7 @@ def write_results(txt_str):
     except:
         return False
     write_list_to_file(link_list=all_tr,
-                       enc=ENCODING,
+                       enc=WRITE_ENCODING,
                        full_path_to_file=RESULT_FILE)
     return True
 
@@ -104,14 +105,14 @@ def write_table_open_tag(site, region):
                                'Result/{domain}_{region}_result.html'.format(domain=site, region=region))
     write_phrase_to_log("<html>\n<table>\n",
                         write_mode='w',
-                        enc=ENCODING,
+                        enc=WRITE_ENCODING,
                         full_path_to_file=RESULT_FILE)
 
 
 def write_table_closing_tag():
     write_phrase_to_log("</table>\n</html>",
                         write_mode='a',
-                        enc=ENCODING,
+                        enc=WRITE_ENCODING,
                         full_path_to_file=RESULT_FILE)
 
 
@@ -125,7 +126,7 @@ def parse_all(site, region, phrases):
     write_table_closing_tag()
 
 def get_initial_info():
-    url_region_phrases_list = get_list(URL_AND_KEYS_FILE)
+    url_region_phrases_list = get_list(URL_AND_KEYS_FILE, encoding=READ_ENCODING)
     site, region, phrases = separate_url_and_region_and_phrases(url_region_phrases_list)
     return site, region, phrases
 

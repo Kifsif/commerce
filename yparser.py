@@ -8,7 +8,8 @@ SELECTED_REGION = 1 # https://tech.yandex.ru/xml/doc/dg/reference/regions-docpag
 PROJECT_DIR = get_current_dir()
 PAGES_TO_PARSE = 3
 LOGS_DIR = os.path.join(get_current_dir(), "../YandexParsing/log")
-ENCODING = 'utf-8'
+READ_ENCODING = 'utf-8'
+WRITE_ENCODING = 'utf-8'
 RESULT_FILE = os.path.join(LOGS_DIR, "{}_result.csv".format(SELECTED_REGION))
 PARSE_RELATED_WORDS = False
 
@@ -22,7 +23,7 @@ def get_region():
 def get_phrases():
     yandex_parsing_init_dir = os.path.join(PROJECT_DIR, "../YandexParsing/init/phrases.txt")
     yandex_parsing_init_file = os.path.join(yandex_parsing_init_dir)
-    phrases = get_list(yandex_parsing_init_file)
+    phrases = get_list(yandex_parsing_init_file, READ_ENCODING)
     return phrases
 
 phrases = get_phrases()
@@ -120,7 +121,7 @@ def handle_phrase(phrase):
                 # link_log_file = "{}.csv".format(SELECTED_REGION)
                 parsed_links = prepare_csv(phrase, parsed_links_tmp)
 
-                write_list_to_file(parsed_links, ENCODING, RESULT_FILE)
+                write_list_to_file(parsed_links, WRITE_ENCODING, RESULT_FILE)
 
                 print("highlited_words")
                 highlited_words_log_file = "{}_highlighted.csv".format(SELECTED_REGION)
@@ -128,7 +129,7 @@ def handle_phrase(phrase):
                 highlited_words = prepare_csv(phrase, highlited_words_tmp)
                 full_path_to_highlited_words_file = os.path.join(LOGS_DIR, highlited_words_log_file)
 
-                write_list_to_file(highlited_words, ENCODING, full_path_to_highlited_words_file)
+                write_list_to_file(highlited_words, WRITE_ENCODING, full_path_to_highlited_words_file)
 
                 if PARSE_RELATED_WORDS:
                     print("tmp_related_item")
@@ -138,13 +139,13 @@ def handle_phrase(phrase):
                     print("related_items")
                     related_items_log_file = "{}_related_items.csv".format(SELECTED_REGION)
                     full_path_to_log_file = os.path.join(LOGS_DIR, related_items_log_file)
-                    write_list_to_file(related_item_list, ENCODING, full_path_to_log_file)
+                    write_list_to_file(related_item_list, WRITE_ENCODING, full_path_to_log_file)
 
                 print("go_to_next_page")
                 go_to_next_page(driver)
 
             log_file = os.path.join(LOGS_DIR, "{}_last_phrase.txt".format(SELECTED_REGION))
-            write_phrase_to_log(phrase=phrase, write_mode='a', enc=ENCODING, full_path_to_file=log_file)
+            write_phrase_to_log(phrase=phrase, write_mode='a', enc=WRITE_ENCODING, full_path_to_file=log_file)
             driver.quit()
             break
         except Exception as e:
@@ -159,7 +160,8 @@ def parse_yandex(counter=0):
         phrase = get_phrase()
         handle_phrase(phrase)
 
-parse_yandex()
+if __name__ == "__main__":
+    parse_yandex()
 
 
 

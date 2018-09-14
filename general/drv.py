@@ -5,8 +5,8 @@ from .general import get_list, get_current_dir
 from selenium.webdriver import DesiredCapabilities
 import os
 
-
-WAIT_PERIOD = 60 # seconds
+ENCODING = "utf-8"
+WAIT_PERIOD = 30 # seconds
 USE_PROXY = True
 # ATTEMPTS_TO_CHANGE_PROXY = 10
 
@@ -16,7 +16,7 @@ copied_proxy_list = []
 project_dir = get_current_dir()
 full_path_to_proxy_list = os.path.join(project_dir, "../CommerceParsing/Init/proxy_list.txt")
 
-init_proxy_list = get_list(full_path_to_proxy_list)
+init_proxy_list = get_list(full_path_to_proxy_list, encoding=ENCODING)
 
 PROXY_BLACK_SET = set()
 
