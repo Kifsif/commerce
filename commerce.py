@@ -9,17 +9,18 @@ global_emails = []
 PARSING_PATH_PARTICLE = "../CommerceParsing/"
 INIT_PATH_PARTICLE = PARSING_PATH_PARTICLE + "Init/"
 
-PHRASE_BUNCH_SIZE = 300
+PHRASE_BUNCH_SIZE = 100
 
 word_list_full_path = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "word_list.txt")
 email_list_full_path = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "email_list.txt")
 
 INDEX_LOG_FILE = "index_log.txt"
+ENC = 'utf-8'
 
-global_phrases =  get_list(word_list_full_path)
+global_phrases =  get_list(word_list_full_path, ENC)
 
 
-global_emails = get_list(email_list_full_path)
+global_emails = get_list(email_list_full_path, ENC)
 
 def get_log_path(log):
     log_path = os.path.join(get_current_dir(), PARSING_PATH_PARTICLE, "log", log)
@@ -111,8 +112,9 @@ def get_current_email(infinite_loop=True):
 
 
 def handle_login(driver):
-    login_button = driver.find_element_by_link_text('Войти')
-    login_button.click()
+    driver.get('https://tools.pixelplus.ru/user/login')
+    # login_button = driver.find_element_by_link_text('Войти')
+    # login_button.click()
 
     email = get_current_email()
     print(email)
@@ -173,20 +175,20 @@ def parse_phrase_bunch(phrases):
     # clear_files(logs_dir)
 
     try:
-        driver = get_driver(USE_PROXY)
-        driver.get('https://tools.pixelplus.ru/')
+        driver = get_driver()
 
         used_email = handle_login(driver)
 
         driver.get("https://tools.pixelplus.ru/tools/geo")
 
         email_log = get_log_path("email_log.txt")
-        write_phrase_to_log(used_email, email_log)
+        # phrase, write_mode, enc, full_path_to_file
+        write_phrase_to_log(used_email, 'a', ENC, email_log)
 
         handle_phrases(phrases, driver)
 
         index_log = get_log_path("index_log.txt")
-        write_phrase_to_log(phrase_counter, index_log)
+        write_phrase_to_log(phrase_counter, 'w', ENC, index_log)
         phrase_counter += PHRASE_BUNCH_SIZE
 
     except Exception as e:

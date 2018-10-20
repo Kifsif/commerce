@@ -16,10 +16,10 @@ URL_AND_KEYS_FILE = os.path.join(get_current_dir(), INIT_PATH_PARTICLE, "init.cs
 READ_ENCODING = 'utf-8'
 WRITE_ENCODING = 'utf-8'
 SIZE_OF_CHUNK = 10
-ARSENKIN = 'https://arsenkin.ru/tools/filter/index.php'
+ARSENKIN = 'https://arsenkin.ru/tools/filter/'
 RESULT_FILE = "" # Инициализируется в функции write_table_open_tag.
-PARSE_RUSSIA = True
-PARSE_MOSCOW = True
+PARSE_RUSSIA = False
+PARSE_MOSCOW = False
 
 # Обязательно строкой, а не цифрой!
 MOSCOW_REGION = '1' # С областью.

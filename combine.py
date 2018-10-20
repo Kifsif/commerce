@@ -5,7 +5,7 @@ from general.general import clear_files
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # source_files_dir = "/home/michael/Downloads/"
-source_files_dir = "/home/michael/Documents/Megaindex/Downloads/Oknamassiv/"
+source_files_dir = "/home/michael/Downloads/"
 
 source_files_mask = source_files_dir + "*.csv"
 

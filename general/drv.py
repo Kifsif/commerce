@@ -6,8 +6,8 @@ from selenium.webdriver import DesiredCapabilities
 import os
 
 ENCODING = "utf-8"
-WAIT_PERIOD = 30 # seconds
-USE_PROXY = True
+WAIT_PERIOD = 680 # seconds
+USE_PROXY = False
 # ATTEMPTS_TO_CHANGE_PROXY = 10
 
 
